@@ -1,0 +1,1627 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'react',
+1 verbose cli   'react-dom' ]
+2 info using npm@2.14.12
+3 info using node@v4.2.4
+4 verbose install initial load of /Users/venkata.vepa/ReactLearn/thumbnail-list/package.json
+5 warn package.json thumbnail-list@1.0.0 No description
+6 warn package.json thumbnail-list@1.0.0 No repository field.
+7 warn package.json thumbnail-list@1.0.0 No README data
+8 verbose installManyTop reading scoped package data from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/browserify/package.json
+9 verbose installManyTop reading scoped package data from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/gulp/package.json
+10 verbose installManyTop reading scoped package data from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/gulp-concat/package.json
+11 verbose installManyTop reading scoped package data from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/gulp-react/package.json
+12 verbose installManyTop reading scoped package data from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/gulp-util/package.json
+13 verbose installManyTop reading scoped package data from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/package.json
+14 verbose installManyTop reading scoped package data from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/reactify/package.json
+15 verbose installManyTop reading scoped package data from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/vinyl-source-stream/package.json
+16 verbose installManyTop reading scoped package data from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/watchify/package.json
+17 verbose readDependencies loading dependencies from /Users/venkata.vepa/ReactLearn/thumbnail-list/package.json
+18 verbose install react is installed as 0.13.3
+19 silly cache add args [ 'react@^0.13.3', null ]
+20 verbose cache add spec react@^0.13.3
+21 silly cache add args [ 'react-dom', null ]
+22 verbose cache add spec react-dom
+23 silly cache add parsed spec Result {
+23 silly cache add   raw: 'react@^0.13.3',
+23 silly cache add   scope: null,
+23 silly cache add   name: 'react',
+23 silly cache add   rawSpec: '^0.13.3',
+23 silly cache add   spec: '>=0.13.3 <0.14.0',
+23 silly cache add   type: 'range' }
+24 silly addNamed react@>=0.13.3 <0.14.0
+25 verbose addNamed ">=0.13.3 <0.14.0" is a valid semver range for react
+26 silly addNameRange { name: 'react', range: '>=0.13.3 <0.14.0', hasData: false }
+27 silly mapToRegistry name react
+28 silly mapToRegistry using default registry
+29 silly mapToRegistry registry https://registry.npmjs.org/
+30 silly mapToRegistry uri https://registry.npmjs.org/react
+31 verbose addNameRange registry:https://registry.npmjs.org/react not in flight; fetching
+32 silly cache add parsed spec Result {
+32 silly cache add   raw: 'react-dom',
+32 silly cache add   scope: null,
+32 silly cache add   name: 'react-dom',
+32 silly cache add   rawSpec: '',
+32 silly cache add   spec: 'latest',
+32 silly cache add   type: 'tag' }
+33 silly addNamed react-dom@latest
+34 verbose addNamed "latest" is being treated as a dist-tag for react-dom
+35 info addNameTag [ 'react-dom', 'latest' ]
+36 silly mapToRegistry name react-dom
+37 silly mapToRegistry using default registry
+38 silly mapToRegistry registry https://registry.npmjs.org/
+39 silly mapToRegistry uri https://registry.npmjs.org/react-dom
+40 verbose addNameTag registry:https://registry.npmjs.org/react-dom not in flight; fetching
+41 verbose request uri https://registry.npmjs.org/react-dom
+42 verbose request no auth needed
+43 info attempt registry request try #1 at 9:31:58 PM
+44 verbose request id 4ca71c090c0a4e3f
+45 http request GET https://registry.npmjs.org/react-dom
+46 verbose request uri https://registry.npmjs.org/react
+47 verbose request no auth needed
+48 info attempt registry request try #1 at 9:31:58 PM
+49 verbose etag "CZTXFCXZEVUCBM5CB9GWAK9L1"
+50 http request GET https://registry.npmjs.org/react
+51 http 200 https://registry.npmjs.org/react-dom
+52 verbose headers { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+52 verbose headers   etag: '"2ZBFGQ8ER46IYZRVEPE3CFYX7"',
+52 verbose headers   'content-type': 'application/json',
+52 verbose headers   'cache-control': 'max-age=300',
+52 verbose headers   'content-length': '14599',
+52 verbose headers   'accept-ranges': 'bytes',
+52 verbose headers   date: 'Fri, 08 Jan 2016 05:31:50 GMT',
+52 verbose headers   via: '1.1 varnish',
+52 verbose headers   age: '16',
+52 verbose headers   connection: 'keep-alive',
+52 verbose headers   'x-served-by': 'cache-lax1432-LAX',
+52 verbose headers   'x-cache': 'HIT',
+52 verbose headers   'x-cache-hits': '15',
+52 verbose headers   'x-timer': 'S1452231110.370300,VS0,VE0',
+52 verbose headers   vary: 'Accept' }
+53 silly get cb [ 200,
+53 silly get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+53 silly get     etag: '"2ZBFGQ8ER46IYZRVEPE3CFYX7"',
+53 silly get     'content-type': 'application/json',
+53 silly get     'cache-control': 'max-age=300',
+53 silly get     'content-length': '14599',
+53 silly get     'accept-ranges': 'bytes',
+53 silly get     date: 'Fri, 08 Jan 2016 05:31:50 GMT',
+53 silly get     via: '1.1 varnish',
+53 silly get     age: '16',
+53 silly get     connection: 'keep-alive',
+53 silly get     'x-served-by': 'cache-lax1432-LAX',
+53 silly get     'x-cache': 'HIT',
+53 silly get     'x-cache-hits': '15',
+53 silly get     'x-timer': 'S1452231110.370300,VS0,VE0',
+53 silly get     vary: 'Accept' } ]
+54 verbose get saving react-dom to /Users/venkata.vepa/.npm/registry.npmjs.org/react-dom/.cache.json
+55 silly addNameTag next cb for react-dom with tag latest
+56 silly addNamed react-dom@0.14.6
+57 verbose addNamed "0.14.6" is a plain semver version for react-dom
+58 silly mapToRegistry name react-dom
+59 silly mapToRegistry using default registry
+60 silly mapToRegistry registry https://registry.npmjs.org/
+61 silly mapToRegistry uri https://registry.npmjs.org/react-dom
+62 verbose addRemoteTarball https://registry.npmjs.org/react-dom/-/react-dom-0.14.6.tgz not in flight; adding
+63 verbose addRemoteTarball [ 'https://registry.npmjs.org/react-dom/-/react-dom-0.14.6.tgz',
+63 verbose addRemoteTarball   '46d4e3243884f277e89ce8759131e8a16ac23e65' ]
+64 info retry fetch attempt 1 at 9:31:58 PM
+65 info attempt registry request try #1 at 9:31:58 PM
+66 http fetch GET https://registry.npmjs.org/react-dom/-/react-dom-0.14.6.tgz
+67 http 304 https://registry.npmjs.org/react
+68 verbose headers { date: 'Fri, 08 Jan 2016 05:31:50 GMT',
+68 verbose headers   via: '1.1 varnish',
+68 verbose headers   'cache-control': 'max-age=300',
+68 verbose headers   etag: '"CZTXFCXZEVUCBM5CB9GWAK9L1"',
+68 verbose headers   age: '0',
+68 verbose headers   connection: 'keep-alive',
+68 verbose headers   'x-served-by': 'cache-lax1421-LAX',
+68 verbose headers   'x-cache': 'HIT',
+68 verbose headers   'x-cache-hits': '1',
+68 verbose headers   'x-timer': 'S1452231110.373747,VS0,VE84',
+68 verbose headers   vary: 'Accept' }
+69 silly get cb [ 304,
+69 silly get   { date: 'Fri, 08 Jan 2016 05:31:50 GMT',
+69 silly get     via: '1.1 varnish',
+69 silly get     'cache-control': 'max-age=300',
+69 silly get     etag: '"CZTXFCXZEVUCBM5CB9GWAK9L1"',
+69 silly get     age: '0',
+69 silly get     connection: 'keep-alive',
+69 silly get     'x-served-by': 'cache-lax1421-LAX',
+69 silly get     'x-cache': 'HIT',
+69 silly get     'x-cache-hits': '1',
+69 silly get     'x-timer': 'S1452231110.373747,VS0,VE84',
+69 silly get     vary: 'Accept' } ]
+70 verbose etag https://registry.npmjs.org/react from cache
+71 verbose get saving react to /Users/venkata.vepa/.npm/registry.npmjs.org/react/.cache.json
+72 silly addNameRange number 2 { name: 'react', range: '>=0.13.3 <0.14.0', hasData: true }
+73 silly addNameRange versions [ 'react',
+73 silly addNameRange   [ '0.0.1',
+73 silly addNameRange     '0.0.2',
+73 silly addNameRange     '0.0.3',
+73 silly addNameRange     '0.1.2',
+73 silly addNameRange     '0.2.0',
+73 silly addNameRange     '0.2.1',
+73 silly addNameRange     '0.2.2',
+73 silly addNameRange     '0.2.3',
+73 silly addNameRange     '0.2.4',
+73 silly addNameRange     '0.2.5',
+73 silly addNameRange     '0.2.6',
+73 silly addNameRange     '0.3.0',
+73 silly addNameRange     '0.3.4',
+73 silly addNameRange     '0.3.5',
+73 silly addNameRange     '0.5.0',
+73 silly addNameRange     '0.5.1',
+73 silly addNameRange     '0.5.2',
+73 silly addNameRange     '0.6.0',
+73 silly addNameRange     '0.6.1',
+73 silly addNameRange     '0.6.2',
+73 silly addNameRange     '0.6.3',
+73 silly addNameRange     '0.7.0',
+73 silly addNameRange     '0.7.1',
+73 silly addNameRange     '0.8.0',
+73 silly addNameRange     '0.9.0-rc1',
+73 silly addNameRange     '0.9.0',
+73 silly addNameRange     '0.10.0-rc1',
+73 silly addNameRange     '0.10.0',
+73 silly addNameRange     '0.11.0-rc1',
+73 silly addNameRange     '0.11.0',
+73 silly addNameRange     '0.11.1',
+73 silly addNameRange     '0.11.2',
+73 silly addNameRange     '0.12.0-rc1',
+73 silly addNameRange     '0.12.0',
+73 silly addNameRange     '0.12.1',
+73 silly addNameRange     '0.12.2',
+73 silly addNameRange     '0.13.0-alpha.1',
+73 silly addNameRange     '0.13.0-alpha.2',
+73 silly addNameRange     '0.13.0-beta.1',
+73 silly addNameRange     '0.13.0-beta.2',
+73 silly addNameRange     '0.13.0-rc1',
+73 silly addNameRange     '0.13.0-rc2',
+73 silly addNameRange     '0.13.0',
+73 silly addNameRange     '0.13.1',
+73 silly addNameRange     '0.13.2',
+73 silly addNameRange     '0.13.3',
+73 silly addNameRange     '0.14.0-alpha1',
+73 silly addNameRange     '0.14.0-alpha2',
+73 silly addNameRange     '0.14.0-alpha3',
+73 silly addNameRange     '0.14.0-beta1',
+73 silly addNameRange     '0.14.0-beta2',
+73 silly addNameRange     '0.14.0-beta3',
+73 silly addNameRange     '0.14.0-rc1',
+73 silly addNameRange     '0.14.0',
+73 silly addNameRange     '0.14.1',
+73 silly addNameRange     '0.14.2',
+73 silly addNameRange     '0.14.3',
+73 silly addNameRange     '0.14.4',
+73 silly addNameRange     '0.14.5',
+73 silly addNameRange     '0.14.6' ] ]
+74 silly addNamed react@0.13.3
+75 verbose addNamed "0.13.3" is a plain semver version for react
+76 silly cache afterAdd react@0.13.3
+77 verbose afterAdd /Users/venkata.vepa/.npm/react/0.13.3/package/package.json not in flight; writing
+78 verbose afterAdd /Users/venkata.vepa/.npm/react/0.13.3/package/package.json written
+79 http fetch 200 https://registry.npmjs.org/react-dom/-/react-dom-0.14.6.tgz
+80 silly fetchAndShaCheck shasum 46d4e3243884f277e89ce8759131e8a16ac23e65
+81 verbose addTmpTarball /var/folders/4j/ybq26qpd6v74hfws_vyxgsqmk7sfw8/T/npm-25613-70719acf/registry.npmjs.org/react-dom/-/react-dom-0.14.6.tgz not in flight; adding
+82 verbose addTmpTarball already have metadata; skipping unpack for react-dom@0.14.6
+83 silly cache afterAdd react-dom@0.14.6
+84 verbose afterAdd /Users/venkata.vepa/.npm/react-dom/0.14.6/package/package.json not in flight; writing
+85 verbose afterAdd /Users/venkata.vepa/.npm/react-dom/0.14.6/package/package.json written
+86 silly install resolved [ { name: 'react',
+86 silly install resolved     description: 'React is a JavaScript library for building user interfaces.',
+86 silly install resolved     version: '0.13.3',
+86 silly install resolved     keywords: [ 'react' ],
+86 silly install resolved     homepage: 'https://github.com/facebook/react/tree/master/npm-react',
+86 silly install resolved     bugs: { url: 'https://github.com/facebook/react/issues?labels=react-core' },
+86 silly install resolved     license: 'BSD-3-Clause',
+86 silly install resolved     files: [ 'README.md', 'addons.js', 'react.js', 'dist/', 'lib/' ],
+86 silly install resolved     main: 'react.js',
+86 silly install resolved     repository:
+86 silly install resolved      { type: 'git',
+86 silly install resolved        url: 'git+https://github.com/facebook/react.git' },
+86 silly install resolved     engines: { node: '>=0.10.0' },
+86 silly install resolved     dependencies: { envify: '^3.0.0' },
+86 silly install resolved     browserify: { transform: [Object] },
+86 silly install resolved     _id: 'react@0.13.3',
+86 silly install resolved     _shasum: 'a2dfa85335d7dc02b82b482f089582e64cc13356',
+86 silly install resolved     _resolved: 'https://registry.npmjs.org/react/-/react-0.13.3.tgz',
+86 silly install resolved     _from: 'react@>=0.13.3 <0.14.0',
+86 silly install resolved     scripts: {},
+86 silly install resolved     _npmVersion: '2.7.3',
+86 silly install resolved     _nodeVersion: '0.10.38',
+86 silly install resolved     _npmUser: { name: 'zpao', email: 'paul@oshannessy.com' },
+86 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+86 silly install resolved     dist:
+86 silly install resolved      { shasum: 'a2dfa85335d7dc02b82b482f089582e64cc13356',
+86 silly install resolved        tarball: 'http://registry.npmjs.org/react/-/react-0.13.3.tgz' },
+86 silly install resolved     directories: {},
+86 silly install resolved     readme: 'ERROR: No README data found!' },
+86 silly install resolved   { name: 'react-dom',
+86 silly install resolved     version: '0.14.6',
+86 silly install resolved     description: 'React package for working with the DOM.',
+86 silly install resolved     main: 'index.js',
+86 silly install resolved     repository:
+86 silly install resolved      { type: 'git',
+86 silly install resolved        url: 'git+https://github.com/facebook/react.git' },
+86 silly install resolved     keywords: [ 'react' ],
+86 silly install resolved     license: 'BSD-3-Clause',
+86 silly install resolved     bugs: { url: 'https://github.com/facebook/react/issues' },
+86 silly install resolved     homepage: 'https://github.com/facebook/react/tree/master/npm-react-dom',
+86 silly install resolved     peerDependencies: { react: '^0.14.6' },
+86 silly install resolved     scripts: { start: 'node server.js' },
+86 silly install resolved     _id: 'react-dom@0.14.6',
+86 silly install resolved     _shasum: '46d4e3243884f277e89ce8759131e8a16ac23e65',
+86 silly install resolved     _resolved: 'https://registry.npmjs.org/react-dom/-/react-dom-0.14.6.tgz',
+86 silly install resolved     _from: 'react-dom@latest',
+86 silly install resolved     _npmVersion: '2.14.15',
+86 silly install resolved     _nodeVersion: '4.2.2',
+86 silly install resolved     _npmUser: { name: 'zpao', email: 'paul@oshannessy.com' },
+86 silly install resolved     maintainers: [ [Object], [Object] ],
+86 silly install resolved     dist:
+86 silly install resolved      { shasum: '46d4e3243884f277e89ce8759131e8a16ac23e65',
+86 silly install resolved        tarball: 'http://registry.npmjs.org/react-dom/-/react-dom-0.14.6.tgz' },
+86 silly install resolved     directories: {} } ]
+87 info install react@0.13.3 into /Users/venkata.vepa/ReactLearn/thumbnail-list
+88 info install react-dom@0.14.6 into /Users/venkata.vepa/ReactLearn/thumbnail-list
+89 info installOne react@0.13.3
+90 verbose installOne of react to /Users/venkata.vepa/ReactLearn/thumbnail-list not in flight; installing
+91 info installOne react-dom@0.14.6
+92 verbose installOne of react-dom to /Users/venkata.vepa/ReactLearn/thumbnail-list not in flight; installing
+93 verbose lock using /Users/venkata.vepa/.npm/_locks/react-d071f03ab5ba3d05.lock for /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react
+94 verbose lock using /Users/venkata.vepa/.npm/_locks/react-dom-f9b8ae5349eb76c3.lock for /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react-dom
+95 silly install write writing react-dom 0.14.6 to /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react-dom
+96 silly install write writing react 0.13.3 to /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react
+97 verbose unbuild node_modules/react-dom
+98 verbose unbuild node_modules/react
+99 silly gentlyRm /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react-dom is being purged from base /Users/venkata.vepa/ReactLearn/thumbnail-list
+100 verbose gentlyRm don't care about contents; nuking /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react-dom
+101 verbose tar unpack /Users/venkata.vepa/.npm/react-dom/0.14.6/package.tgz
+102 verbose tar unpacking to /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react-dom
+103 silly gentlyRm /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react-dom is being purged
+104 verbose gentlyRm don't care about contents; nuking /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react-dom
+105 silly gunzTarPerm modes [ '755', '644' ]
+106 info preuninstall react@0.13.3
+107 silly gunzTarPerm extractEntry package.json
+108 info uninstall react@0.13.3
+109 verbose unbuild rmStuff react@0.13.3 from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules
+110 info postuninstall react@0.13.3
+111 silly gunzTarPerm extractEntry README.md
+112 silly gunzTarPerm extractEntry LICENSE
+113 silly gentlyRm /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react is being purged from base /Users/venkata.vepa/ReactLearn/thumbnail-list
+114 verbose gentlyRm don't care about contents; nuking /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react
+115 silly vacuum-fs purging /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react
+116 silly gunzTarPerm extractEntry index.js
+117 silly gunzTarPerm extractEntry server.js
+118 silly gunzTarPerm extractEntry PATENTS
+119 silly gunzTarPerm extractEntry dist/react-dom-server.js
+120 silly gunzTarPerm extractEntry dist/react-dom-server.min.js
+121 silly gunzTarPerm extractEntry dist/react-dom.js
+122 silly gunzTarPerm extractEntry dist/react-dom.min.js
+123 silly vacuum-fs quitting because other entries in /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules
+124 verbose tar unpack /Users/venkata.vepa/.npm/react/0.13.3/package.tgz
+125 verbose tar unpacking to /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react
+126 silly gentlyRm /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react is being purged
+127 verbose gentlyRm don't care about contents; nuking /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react
+128 silly gunzTarPerm modes [ '755', '644' ]
+129 silly gunzTarPerm extractEntry package.json
+130 silly gunzTarPerm extractEntry README.md
+131 silly gunzTarPerm extractEntry addons.js
+132 silly gunzTarPerm extractEntry react.js
+133 silly gunzTarPerm extractEntry dist/JSXTransformer.js
+134 silly gunzTarPerm extractEntry dist/react-with-addons.js
+135 verbose write writing to /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react-dom/package.json
+136 info preinstall react-dom@0.14.6
+137 verbose readDependencies loading dependencies from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react-dom/package.json
+138 silly prepareForInstallMany adding react@^0.14.6 from react-dom peerDependencies
+139 warn peerDependencies The peer dependency react@^0.14.6 included from react-dom will no
+140 warn peerDependencies longer be automatically installed to fulfill the peerDependency
+141 warn peerDependencies in npm 3+. Your application will need to depend on it explicitly.
+142 verbose readDependencies loading dependencies from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react-dom/package.json
+143 silly install resolved []
+144 verbose about to build /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react-dom
+145 info build /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react-dom
+146 info linkStuff react-dom@0.14.6
+147 silly linkStuff react-dom@0.14.6 has /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules as its parent node_modules
+148 verbose linkBins react-dom@0.14.6
+149 verbose linkMans react-dom@0.14.6
+150 verbose rebuildBundles react-dom@0.14.6
+151 info install react-dom@0.14.6
+152 info postinstall react-dom@0.14.6
+153 verbose readDependencies loading dependencies from /Users/venkata.vepa/ReactLearn/thumbnail-list/package.json
+154 verbose targetResolver reading package data from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/browserify/package.json
+155 verbose targetResolver reading package data from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/gulp/package.json
+156 verbose targetResolver reading package data from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/gulp-concat/package.json
+157 verbose targetResolver reading package data from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/gulp-react/package.json
+158 verbose targetResolver reading package data from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/gulp-util/package.json
+159 verbose targetResolver reading package data from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/package.json
+160 verbose targetResolver reading package data from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react-dom/package.json
+161 verbose targetResolver reading package data from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/reactify/package.json
+162 verbose targetResolver reading package data from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/vinyl-source-stream/package.json
+163 verbose targetResolver reading package data from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/watchify/package.json
+164 verbose targetResolver reading package data from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/.bin/browserify/package.json
+165 verbose targetResolver reading package data from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/.bin/gulp/package.json
+166 verbose targetResolver reading package data from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/.bin/watchify/package.json
+167 silly gunzTarPerm extractEntry dist/react-with-addons.min.js
+168 silly gunzTarPerm extractEntry dist/react.js
+169 verbose already installed skipping react@^0.14.6 /Users/venkata.vepa/ReactLearn/thumbnail-list
+170 silly install resolved []
+171 verbose unlock done using /Users/venkata.vepa/.npm/_locks/react-dom-f9b8ae5349eb76c3.lock for /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react-dom
+172 silly gunzTarPerm extractEntry dist/react.min.js
+173 silly gunzTarPerm extractEntry lib/AutoFocusMixin.js
+174 silly gunzTarPerm extractEntry lib/ReactPropTypeLocationNames.js
+175 silly gunzTarPerm extractEntry lib/ReactPropTypeLocations.js
+176 silly gunzTarPerm extractEntry lib/ReactPropTypes.js
+177 silly gunzTarPerm extractEntry lib/ReactPropTransferer.js
+178 silly gunzTarPerm extractEntry lib/ReactReconcileTransaction.js
+179 silly gunzTarPerm extractEntry lib/ReactReconciler.js
+180 silly gunzTarPerm extractEntry lib/ReactRef.js
+181 silly gunzTarPerm extractEntry lib/ReactRootIndex.js
+182 silly gunzTarPerm extractEntry lib/ReactServerRendering.js
+183 silly gunzTarPerm extractEntry lib/ReactPerf.js
+184 silly gunzTarPerm extractEntry lib/ReactServerRenderingTransaction.js
+185 silly gunzTarPerm extractEntry lib/ReactOwner.js
+186 silly gunzTarPerm extractEntry lib/ReactStateSetters.js
+187 silly gunzTarPerm extractEntry lib/ReactNativeComponent.js
+188 silly gunzTarPerm extractEntry lib/ReactTestUtils.js
+189 silly gunzTarPerm extractEntry lib/ReactMultiChildUpdateTypes.js
+190 silly gunzTarPerm extractEntry lib/ReactTransitionChildMapping.js
+191 silly gunzTarPerm extractEntry lib/ReactMultiChild.js
+192 silly gunzTarPerm extractEntry lib/ReactTransitionEvents.js
+193 silly gunzTarPerm extractEntry lib/ReactMount.js
+194 silly gunzTarPerm extractEntry lib/ReactTransitionGroup.js
+195 silly gunzTarPerm extractEntry lib/ReactMarkupChecksum.js
+196 silly gunzTarPerm extractEntry lib/ReactUpdateQueue.js
+197 silly gunzTarPerm extractEntry lib/ReactLink.js
+198 silly gunzTarPerm extractEntry lib/ReactUpdates.js
+199 silly gunzTarPerm extractEntry lib/ReactLifeCycle.js
+200 silly gunzTarPerm extractEntry lib/ReactWithAddons.js
+201 silly gunzTarPerm extractEntry lib/ReactInstanceMap.js
+202 silly gunzTarPerm extractEntry lib/SVGDOMPropertyConfig.js
+203 silly gunzTarPerm extractEntry lib/ReactInstanceHandles.js
+204 silly gunzTarPerm extractEntry lib/SelectEventPlugin.js
+205 silly gunzTarPerm extractEntry lib/ReactInputSelection.js
+206 silly gunzTarPerm extractEntry lib/ServerReactRootIndex.js
+207 silly gunzTarPerm extractEntry lib/ReactInjection.js
+208 silly gunzTarPerm extractEntry lib/SimpleEventPlugin.js
+209 silly gunzTarPerm extractEntry lib/ReactFragment.js
+210 silly gunzTarPerm extractEntry lib/SyntheticClipboardEvent.js
+211 silly gunzTarPerm extractEntry lib/ReactEventListener.js
+212 silly gunzTarPerm extractEntry lib/SyntheticCompositionEvent.js
+213 silly gunzTarPerm extractEntry lib/ReactEventEmitterMixin.js
+214 silly gunzTarPerm extractEntry lib/SyntheticDragEvent.js
+215 silly gunzTarPerm extractEntry lib/ReactErrorUtils.js
+216 silly gunzTarPerm extractEntry lib/SyntheticEvent.js
+217 silly gunzTarPerm extractEntry lib/ReactEmptyComponent.js
+218 silly gunzTarPerm extractEntry lib/SyntheticFocusEvent.js
+219 silly gunzTarPerm extractEntry lib/ReactElementValidator.js
+220 silly gunzTarPerm extractEntry lib/SyntheticInputEvent.js
+221 silly gunzTarPerm extractEntry lib/ReactElement.js
+222 silly gunzTarPerm extractEntry lib/SyntheticKeyboardEvent.js
+223 silly gunzTarPerm extractEntry lib/ReactDefaultPerfAnalysis.js
+224 silly gunzTarPerm extractEntry lib/SyntheticMouseEvent.js
+225 silly gunzTarPerm extractEntry lib/ReactDefaultPerf.js
+226 silly gunzTarPerm extractEntry lib/SyntheticTouchEvent.js
+227 silly gunzTarPerm extractEntry lib/ReactDefaultInjection.js
+228 silly gunzTarPerm extractEntry lib/SyntheticUIEvent.js
+229 silly gunzTarPerm extractEntry lib/ReactDefaultBatchingStrategy.js
+230 silly gunzTarPerm extractEntry lib/SyntheticWheelEvent.js
+231 silly gunzTarPerm extractEntry lib/ReactDOMTextarea.js
+232 silly gunzTarPerm extractEntry lib/Transaction.js
+233 silly gunzTarPerm extractEntry lib/ReactDOMTextComponent.js
+234 silly gunzTarPerm extractEntry lib/ViewportMetrics.js
+235 silly gunzTarPerm extractEntry lib/ReactDOMSelection.js
+236 silly gunzTarPerm extractEntry lib/accumulateInto.js
+237 silly gunzTarPerm extractEntry lib/ReactDOMSelect.js
+238 silly gunzTarPerm extractEntry lib/adler32.js
+239 silly gunzTarPerm extractEntry lib/ReactDOMOption.js
+240 silly gunzTarPerm extractEntry lib/camelize.js
+241 silly gunzTarPerm extractEntry lib/ReactDOMInput.js
+242 silly gunzTarPerm extractEntry lib/camelizeStyleName.js
+243 silly gunzTarPerm extractEntry lib/ReactDOMImg.js
+244 silly gunzTarPerm extractEntry lib/cloneWithProps.js
+245 silly gunzTarPerm extractEntry lib/ReactDOMIframe.js
+246 silly gunzTarPerm extractEntry lib/containsNode.js
+247 silly gunzTarPerm extractEntry lib/ReactDOMIDOperations.js
+248 silly gunzTarPerm extractEntry lib/createArrayFromMixed.js
+249 silly gunzTarPerm extractEntry lib/ReactDOMForm.js
+250 silly gunzTarPerm extractEntry lib/createFullPageComponent.js
+251 silly gunzTarPerm extractEntry lib/ReactDOMComponent.js
+252 silly gunzTarPerm extractEntry lib/createNodesFromMarkup.js
+253 silly gunzTarPerm extractEntry lib/ReactDOMButton.js
+254 silly gunzTarPerm extractEntry lib/cx.js
+255 silly gunzTarPerm extractEntry lib/ReactDOM.js
+256 silly gunzTarPerm extractEntry lib/dangerousStyleValue.js
+257 silly gunzTarPerm extractEntry lib/ReactCurrentOwner.js
+258 silly gunzTarPerm extractEntry lib/emptyFunction.js
+259 silly gunzTarPerm extractEntry lib/ReactContext.js
+260 silly gunzTarPerm extractEntry lib/emptyObject.js
+261 silly gunzTarPerm extractEntry lib/ReactCompositeComponent.js
+262 silly gunzTarPerm extractEntry lib/escapeTextContentForBrowser.js
+263 silly gunzTarPerm extractEntry lib/ReactComponentWithPureRenderMixin.js
+264 silly gunzTarPerm extractEntry lib/findDOMNode.js
+265 silly gunzTarPerm extractEntry lib/ReactComponentEnvironment.js
+266 silly gunzTarPerm extractEntry lib/flattenChildren.js
+267 silly gunzTarPerm extractEntry lib/ReactComponentBrowserEnvironment.js
+268 silly gunzTarPerm extractEntry lib/focusNode.js
+269 silly gunzTarPerm extractEntry lib/ReactComponent.js
+270 silly gunzTarPerm extractEntry lib/forEachAccumulated.js
+271 silly gunzTarPerm extractEntry lib/ReactClass.js
+272 silly gunzTarPerm extractEntry lib/getActiveElement.js
+273 silly gunzTarPerm extractEntry lib/ReactChildren.js
+274 silly gunzTarPerm extractEntry lib/getEventCharCode.js
+275 silly gunzTarPerm extractEntry lib/ReactChildReconciler.js
+276 silly gunzTarPerm extractEntry lib/getEventKey.js
+277 silly gunzTarPerm extractEntry lib/ReactCSSTransitionGroupChild.js
+278 silly gunzTarPerm extractEntry lib/getEventModifierState.js
+279 silly gunzTarPerm extractEntry lib/ReactCSSTransitionGroup.js
+280 silly gunzTarPerm extractEntry lib/getEventTarget.js
+281 silly gunzTarPerm extractEntry lib/ReactBrowserEventEmitter.js
+282 silly gunzTarPerm extractEntry lib/getIteratorFn.js
+283 silly gunzTarPerm extractEntry lib/ReactBrowserComponentMixin.js
+284 silly gunzTarPerm extractEntry lib/getMarkupWrap.js
+285 silly gunzTarPerm extractEntry lib/React.js
+286 silly gunzTarPerm extractEntry lib/getNodeForCharacterOffset.js
+287 silly gunzTarPerm extractEntry lib/PooledClass.js
+288 silly gunzTarPerm extractEntry lib/getReactRootElementInContainer.js
+289 silly gunzTarPerm extractEntry lib/Object.assign.js
+290 silly gunzTarPerm extractEntry lib/getTextContentAccessor.js
+291 silly gunzTarPerm extractEntry lib/MobileSafariClickEventPlugin.js
+292 silly gunzTarPerm extractEntry lib/getUnboundedScrollPosition.js
+293 silly gunzTarPerm extractEntry lib/LocalEventTrapMixin.js
+294 silly gunzTarPerm extractEntry lib/hyphenate.js
+295 silly gunzTarPerm extractEntry lib/LinkedValueUtils.js
+296 silly gunzTarPerm extractEntry lib/hyphenateStyleName.js
+297 silly gunzTarPerm extractEntry lib/LinkedStateMixin.js
+298 silly gunzTarPerm extractEntry lib/instantiateReactComponent.js
+299 silly gunzTarPerm extractEntry lib/HTMLDOMPropertyConfig.js
+300 silly gunzTarPerm extractEntry lib/invariant.js
+301 silly gunzTarPerm extractEntry lib/FallbackCompositionState.js
+302 silly gunzTarPerm extractEntry lib/isEventSupported.js
+303 silly gunzTarPerm extractEntry lib/ExecutionEnvironment.js
+304 silly gunzTarPerm extractEntry lib/isNode.js
+305 silly gunzTarPerm extractEntry lib/EventPropagators.js
+306 silly gunzTarPerm extractEntry lib/isTextInputElement.js
+307 silly gunzTarPerm extractEntry lib/EventPluginUtils.js
+308 silly gunzTarPerm extractEntry lib/isTextNode.js
+309 silly gunzTarPerm extractEntry lib/EventPluginRegistry.js
+310 silly gunzTarPerm extractEntry lib/joinClasses.js
+311 silly gunzTarPerm extractEntry lib/EventPluginHub.js
+312 silly gunzTarPerm extractEntry lib/keyMirror.js
+313 silly gunzTarPerm extractEntry lib/EventListener.js
+314 silly gunzTarPerm extractEntry lib/keyOf.js
+315 silly gunzTarPerm extractEntry lib/EventConstants.js
+316 silly gunzTarPerm extractEntry lib/mapObject.js
+317 silly gunzTarPerm extractEntry lib/EnterLeaveEventPlugin.js
+318 silly gunzTarPerm extractEntry lib/memoizeStringOnly.js
+319 silly gunzTarPerm extractEntry lib/DefaultEventPluginOrder.js
+320 silly gunzTarPerm extractEntry lib/onlyChild.js
+321 silly gunzTarPerm extractEntry lib/Danger.js
+322 silly gunzTarPerm extractEntry lib/performance.js
+323 silly gunzTarPerm extractEntry lib/DOMPropertyOperations.js
+324 silly gunzTarPerm extractEntry lib/performanceNow.js
+325 silly gunzTarPerm extractEntry lib/DOMProperty.js
+326 silly gunzTarPerm extractEntry lib/quoteAttributeValueForBrowser.js
+327 silly gunzTarPerm extractEntry lib/DOMChildrenOperations.js
+328 silly gunzTarPerm extractEntry lib/setInnerHTML.js
+329 silly gunzTarPerm extractEntry lib/ClientReactRootIndex.js
+330 silly gunzTarPerm extractEntry lib/setTextContent.js
+331 silly gunzTarPerm extractEntry lib/ChangeEventPlugin.js
+332 silly gunzTarPerm extractEntry lib/shallowEqual.js
+333 silly gunzTarPerm extractEntry lib/CallbackQueue.js
+334 silly gunzTarPerm extractEntry lib/shouldUpdateReactComponent.js
+335 silly gunzTarPerm extractEntry lib/CSSPropertyOperations.js
+336 silly gunzTarPerm extractEntry lib/toArray.js
+337 silly gunzTarPerm extractEntry lib/CSSProperty.js
+338 silly gunzTarPerm extractEntry lib/traverseAllChildren.js
+339 silly gunzTarPerm extractEntry lib/CSSCore.js
+340 silly gunzTarPerm extractEntry lib/update.js
+341 silly gunzTarPerm extractEntry lib/BeforeInputEventPlugin.js
+342 silly gunzTarPerm extractEntry lib/warning.js
+343 silly gunzTarPerm extractEntry lib/ReactPutListenerQueue.js
+344 verbose write writing to /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/package.json
+345 info preinstall react@0.13.3
+346 verbose readDependencies loading dependencies from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/package.json
+347 silly prepareForInstallMany adding envify@^3.0.0 from react dependencies
+348 verbose readDependencies loading dependencies from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/package.json
+349 silly cache add args [ 'envify@^3.0.0', null ]
+350 verbose cache add spec envify@^3.0.0
+351 silly cache add parsed spec Result {
+351 silly cache add   raw: 'envify@^3.0.0',
+351 silly cache add   scope: null,
+351 silly cache add   name: 'envify',
+351 silly cache add   rawSpec: '^3.0.0',
+351 silly cache add   spec: '>=3.0.0 <4.0.0',
+351 silly cache add   type: 'range' }
+352 silly addNamed envify@>=3.0.0 <4.0.0
+353 verbose addNamed ">=3.0.0 <4.0.0" is a valid semver range for envify
+354 silly addNameRange { name: 'envify', range: '>=3.0.0 <4.0.0', hasData: false }
+355 silly mapToRegistry name envify
+356 silly mapToRegistry using default registry
+357 silly mapToRegistry registry https://registry.npmjs.org/
+358 silly mapToRegistry uri https://registry.npmjs.org/envify
+359 verbose addNameRange registry:https://registry.npmjs.org/envify not in flight; fetching
+360 verbose request uri https://registry.npmjs.org/envify
+361 verbose request no auth needed
+362 info attempt registry request try #1 at 9:31:58 PM
+363 verbose etag "IC48O50FXFQMLEGM12XPRORA"
+364 http request GET https://registry.npmjs.org/envify
+365 http 304 https://registry.npmjs.org/envify
+366 verbose headers { date: 'Fri, 08 Jan 2016 05:31:50 GMT',
+366 verbose headers   via: '1.1 varnish',
+366 verbose headers   'cache-control': 'max-age=300',
+366 verbose headers   etag: '"IC48O50FXFQMLEGM12XPRORA"',
+366 verbose headers   age: '295',
+366 verbose headers   connection: 'keep-alive',
+366 verbose headers   'x-served-by': 'cache-lax1435-LAX',
+366 verbose headers   'x-cache': 'HIT',
+366 verbose headers   'x-cache-hits': '3',
+366 verbose headers   'x-timer': 'S1452231110.925374,VS0,VE0',
+366 verbose headers   vary: 'Accept' }
+367 silly get cb [ 304,
+367 silly get   { date: 'Fri, 08 Jan 2016 05:31:50 GMT',
+367 silly get     via: '1.1 varnish',
+367 silly get     'cache-control': 'max-age=300',
+367 silly get     etag: '"IC48O50FXFQMLEGM12XPRORA"',
+367 silly get     age: '295',
+367 silly get     connection: 'keep-alive',
+367 silly get     'x-served-by': 'cache-lax1435-LAX',
+367 silly get     'x-cache': 'HIT',
+367 silly get     'x-cache-hits': '3',
+367 silly get     'x-timer': 'S1452231110.925374,VS0,VE0',
+367 silly get     vary: 'Accept' } ]
+368 verbose etag https://registry.npmjs.org/envify from cache
+369 verbose get saving envify to /Users/venkata.vepa/.npm/registry.npmjs.org/envify/.cache.json
+370 silly addNameRange number 2 { name: 'envify', range: '>=3.0.0 <4.0.0', hasData: true }
+371 silly addNameRange versions [ 'envify',
+371 silly addNameRange   [ '0.0.1',
+371 silly addNameRange     '0.1.0',
+371 silly addNameRange     '0.2.0',
+371 silly addNameRange     '1.0.0',
+371 silly addNameRange     '1.0.1',
+371 silly addNameRange     '1.1.0',
+371 silly addNameRange     '1.2.0',
+371 silly addNameRange     '1.2.1',
+371 silly addNameRange     '2.0.0',
+371 silly addNameRange     '2.0.1',
+371 silly addNameRange     '3.0.0',
+371 silly addNameRange     '3.1.0',
+371 silly addNameRange     '3.2.0',
+371 silly addNameRange     '3.3.0',
+371 silly addNameRange     '3.3.1',
+371 silly addNameRange     '3.4.0' ] ]
+372 silly addNamed envify@3.4.0
+373 verbose addNamed "3.4.0" is a plain semver version for envify
+374 silly cache afterAdd envify@3.4.0
+375 verbose afterAdd /Users/venkata.vepa/.npm/envify/3.4.0/package/package.json not in flight; writing
+376 verbose afterAdd /Users/venkata.vepa/.npm/envify/3.4.0/package/package.json written
+377 silly install resolved [ { name: 'envify',
+377 silly install resolved     version: '3.4.0',
+377 silly install resolved     description: 'Selectively replace Node-style environment variables with plain strings.',
+377 silly install resolved     main: 'index.js',
+377 silly install resolved     scripts: { test: 'node test.js | tap-spec' },
+377 silly install resolved     bin: { envify: 'bin/envify' },
+377 silly install resolved     repository: { type: 'git', url: 'git://github.com/hughsk/envify.git' },
+377 silly install resolved     author:
+377 silly install resolved      { name: 'Hugh Kennedy',
+377 silly install resolved        email: 'hughskennedy@gmail.com',
+377 silly install resolved        url: 'http://hughskennedy.com/' },
+377 silly install resolved     license: 'MIT',
+377 silly install resolved     devDependencies: { 'tap-spec': '^1.0.1', tape: '~2.3.2' },
+377 silly install resolved     dependencies: { through: '~2.3.4', jstransform: '^10.0.1' },
+377 silly install resolved     keywords:
+377 silly install resolved      [ 'environment',
+377 silly install resolved        'variables',
+377 silly install resolved        'browserify',
+377 silly install resolved        'browserify-transform',
+377 silly install resolved        'transform',
+377 silly install resolved        'source',
+377 silly install resolved        'configuration' ],
+377 silly install resolved     gitHead: 'c42c2052e33f82b651a992686c3578639bf0339b',
+377 silly install resolved     bugs: { url: 'https://github.com/hughsk/envify/issues' },
+377 silly install resolved     homepage: 'https://github.com/hughsk/envify',
+377 silly install resolved     _id: 'envify@3.4.0',
+377 silly install resolved     _shasum: 'a0bed52222529076a02fabf6ce00eef42d7b6734',
+377 silly install resolved     _from: 'envify@>=3.0.0 <4.0.0',
+377 silly install resolved     _npmVersion: '1.4.28',
+377 silly install resolved     _npmUser: { name: 'zertosh', email: 'zertosh@gmail.com' },
+377 silly install resolved     maintainers: [ [Object], [Object] ],
+377 silly install resolved     dist:
+377 silly install resolved      { shasum: 'a0bed52222529076a02fabf6ce00eef42d7b6734',
+377 silly install resolved        tarball: 'http://registry.npmjs.org/envify/-/envify-3.4.0.tgz' },
+377 silly install resolved     directories: {},
+377 silly install resolved     _resolved: 'https://registry.npmjs.org/envify/-/envify-3.4.0.tgz',
+377 silly install resolved     readme: 'ERROR: No README data found!' } ]
+378 info install envify@3.4.0 into /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react
+379 info installOne envify@3.4.0
+380 verbose installOne of envify to /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react not in flight; installing
+381 verbose lock using /Users/venkata.vepa/.npm/_locks/envify-fa894eead892c372.lock for /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify
+382 silly install write writing envify 3.4.0 to /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify
+383 verbose unbuild node_modules/react/node_modules/envify
+384 silly gentlyRm /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify is being purged from base /Users/venkata.vepa/ReactLearn/thumbnail-list
+385 verbose gentlyRm don't care about contents; nuking /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify
+386 verbose tar unpack /Users/venkata.vepa/.npm/envify/3.4.0/package.tgz
+387 verbose tar unpacking to /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify
+388 silly gentlyRm /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify is being purged
+389 verbose gentlyRm don't care about contents; nuking /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify
+390 silly gunzTarPerm modes [ '755', '644' ]
+391 silly gunzTarPerm extractEntry package.json
+392 silly gunzTarPerm extractEntry .npmignore
+393 silly gunzTarPerm extractEntry README.md
+394 silly gunzTarPerm extractEntry visitors.js
+395 silly gunzTarPerm extractEntry index.js
+396 silly gunzTarPerm extractEntry custom.js
+397 silly gunzTarPerm extractEntry bin/envify
+398 verbose write writing to /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/package.json
+399 info preinstall envify@3.4.0
+400 verbose readDependencies loading dependencies from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/package.json
+401 silly prepareForInstallMany adding through@~2.3.4 from envify dependencies
+402 silly prepareForInstallMany adding jstransform@^10.0.1 from envify dependencies
+403 verbose readDependencies loading dependencies from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/package.json
+404 silly cache add args [ 'through@~2.3.4', null ]
+405 verbose cache add spec through@~2.3.4
+406 silly cache add args [ 'jstransform@^10.0.1', null ]
+407 verbose cache add spec jstransform@^10.0.1
+408 silly cache add parsed spec Result {
+408 silly cache add   raw: 'through@~2.3.4',
+408 silly cache add   scope: null,
+408 silly cache add   name: 'through',
+408 silly cache add   rawSpec: '~2.3.4',
+408 silly cache add   spec: '>=2.3.4 <2.4.0',
+408 silly cache add   type: 'range' }
+409 silly addNamed through@>=2.3.4 <2.4.0
+410 verbose addNamed ">=2.3.4 <2.4.0" is a valid semver range for through
+411 silly addNameRange { name: 'through', range: '>=2.3.4 <2.4.0', hasData: false }
+412 silly mapToRegistry name through
+413 silly mapToRegistry using default registry
+414 silly mapToRegistry registry https://registry.npmjs.org/
+415 silly mapToRegistry uri https://registry.npmjs.org/through
+416 verbose addNameRange registry:https://registry.npmjs.org/through not in flight; fetching
+417 silly cache add parsed spec Result {
+417 silly cache add   raw: 'jstransform@^10.0.1',
+417 silly cache add   scope: null,
+417 silly cache add   name: 'jstransform',
+417 silly cache add   rawSpec: '^10.0.1',
+417 silly cache add   spec: '>=10.0.1 <11.0.0',
+417 silly cache add   type: 'range' }
+418 silly addNamed jstransform@>=10.0.1 <11.0.0
+419 verbose addNamed ">=10.0.1 <11.0.0" is a valid semver range for jstransform
+420 silly addNameRange { name: 'jstransform',
+420 silly addNameRange   range: '>=10.0.1 <11.0.0',
+420 silly addNameRange   hasData: false }
+421 silly mapToRegistry name jstransform
+422 silly mapToRegistry using default registry
+423 silly mapToRegistry registry https://registry.npmjs.org/
+424 silly mapToRegistry uri https://registry.npmjs.org/jstransform
+425 verbose addNameRange registry:https://registry.npmjs.org/jstransform not in flight; fetching
+426 verbose request uri https://registry.npmjs.org/through
+427 verbose request no auth needed
+428 info attempt registry request try #1 at 9:31:58 PM
+429 verbose etag "AGZWRFANT4LZNII7U0JJ7U3G0"
+430 http request GET https://registry.npmjs.org/through
+431 verbose request uri https://registry.npmjs.org/jstransform
+432 verbose request no auth needed
+433 info attempt registry request try #1 at 9:31:58 PM
+434 verbose etag "47B7F6QLHW6K515EWMAOJ4LOW"
+435 http request GET https://registry.npmjs.org/jstransform
+436 http 304 https://registry.npmjs.org/through
+437 verbose headers { date: 'Fri, 08 Jan 2016 05:31:51 GMT',
+437 verbose headers   via: '1.1 varnish',
+437 verbose headers   'cache-control': 'max-age=300',
+437 verbose headers   etag: '"AGZWRFANT4LZNII7U0JJ7U3G0"',
+437 verbose headers   age: '159',
+437 verbose headers   connection: 'keep-alive',
+437 verbose headers   'x-served-by': 'cache-lax1425-LAX',
+437 verbose headers   'x-cache': 'HIT',
+437 verbose headers   'x-cache-hits': '6',
+437 verbose headers   'x-timer': 'S1452231111.022088,VS0,VE0',
+437 verbose headers   vary: 'Accept' }
+438 silly get cb [ 304,
+438 silly get   { date: 'Fri, 08 Jan 2016 05:31:51 GMT',
+438 silly get     via: '1.1 varnish',
+438 silly get     'cache-control': 'max-age=300',
+438 silly get     etag: '"AGZWRFANT4LZNII7U0JJ7U3G0"',
+438 silly get     age: '159',
+438 silly get     connection: 'keep-alive',
+438 silly get     'x-served-by': 'cache-lax1425-LAX',
+438 silly get     'x-cache': 'HIT',
+438 silly get     'x-cache-hits': '6',
+438 silly get     'x-timer': 'S1452231111.022088,VS0,VE0',
+438 silly get     vary: 'Accept' } ]
+439 verbose etag https://registry.npmjs.org/through from cache
+440 verbose get saving through to /Users/venkata.vepa/.npm/registry.npmjs.org/through/.cache.json
+441 silly addNameRange number 2 { name: 'through', range: '>=2.3.4 <2.4.0', hasData: true }
+442 silly addNameRange versions [ 'through',
+442 silly addNameRange   [ '0.0.1',
+442 silly addNameRange     '0.0.2',
+442 silly addNameRange     '0.0.3',
+442 silly addNameRange     '0.0.4',
+442 silly addNameRange     '0.1.0',
+442 silly addNameRange     '0.1.1',
+442 silly addNameRange     '0.1.2',
+442 silly addNameRange     '0.1.3',
+442 silly addNameRange     '0.1.4',
+442 silly addNameRange     '1.0.0',
+442 silly addNameRange     '1.1.0',
+442 silly addNameRange     '1.1.1',
+442 silly addNameRange     '1.1.2',
+442 silly addNameRange     '2.0.0',
+442 silly addNameRange     '2.1.0',
+442 silly addNameRange     '2.2.0',
+442 silly addNameRange     '2.2.1',
+442 silly addNameRange     '2.2.2',
+442 silly addNameRange     '2.2.4',
+442 silly addNameRange     '2.2.5',
+442 silly addNameRange     '2.2.6',
+442 silly addNameRange     '2.2.7',
+442 silly addNameRange     '2.3.1',
+442 silly addNameRange     '2.3.2',
+442 silly addNameRange     '2.3.3',
+442 silly addNameRange     '2.3.4',
+442 silly addNameRange     '2.3.6',
+442 silly addNameRange     '2.3.7',
+442 silly addNameRange     '2.3.8' ] ]
+443 silly addNamed through@2.3.8
+444 verbose addNamed "2.3.8" is a plain semver version for through
+445 silly cache afterAdd through@2.3.8
+446 verbose afterAdd /Users/venkata.vepa/.npm/through/2.3.8/package/package.json not in flight; writing
+447 verbose afterAdd /Users/venkata.vepa/.npm/through/2.3.8/package/package.json written
+448 http 304 https://registry.npmjs.org/jstransform
+449 verbose headers { date: 'Fri, 08 Jan 2016 05:31:51 GMT',
+449 verbose headers   via: '1.1 varnish',
+449 verbose headers   'cache-control': 'max-age=300',
+449 verbose headers   etag: '"47B7F6QLHW6K515EWMAOJ4LOW"',
+449 verbose headers   age: '295',
+449 verbose headers   connection: 'keep-alive',
+449 verbose headers   'x-served-by': 'cache-lax1425-LAX',
+449 verbose headers   'x-cache': 'HIT',
+449 verbose headers   'x-cache-hits': '1',
+449 verbose headers   'x-timer': 'S1452231111.041781,VS0,VE0',
+449 verbose headers   vary: 'Accept' }
+450 silly get cb [ 304,
+450 silly get   { date: 'Fri, 08 Jan 2016 05:31:51 GMT',
+450 silly get     via: '1.1 varnish',
+450 silly get     'cache-control': 'max-age=300',
+450 silly get     etag: '"47B7F6QLHW6K515EWMAOJ4LOW"',
+450 silly get     age: '295',
+450 silly get     connection: 'keep-alive',
+450 silly get     'x-served-by': 'cache-lax1425-LAX',
+450 silly get     'x-cache': 'HIT',
+450 silly get     'x-cache-hits': '1',
+450 silly get     'x-timer': 'S1452231111.041781,VS0,VE0',
+450 silly get     vary: 'Accept' } ]
+451 verbose etag https://registry.npmjs.org/jstransform from cache
+452 verbose get saving jstransform to /Users/venkata.vepa/.npm/registry.npmjs.org/jstransform/.cache.json
+453 silly addNameRange number 2 { name: 'jstransform', range: '>=10.0.1 <11.0.0', hasData: true }
+454 silly addNameRange versions [ 'jstransform',
+454 silly addNameRange   [ '1.0.0',
+454 silly addNameRange     '1.0.1',
+454 silly addNameRange     '2.0.1',
+454 silly addNameRange     '2.0.2',
+454 silly addNameRange     '2.0.3',
+454 silly addNameRange     '3.0.0',
+454 silly addNameRange     '4.0.0',
+454 silly addNameRange     '4.0.1',
+454 silly addNameRange     '5.0.0',
+454 silly addNameRange     '6.0.0',
+454 silly addNameRange     '6.0.1',
+454 silly addNameRange     '6.1.0',
+454 silly addNameRange     '6.2.0',
+454 silly addNameRange     '6.3.0',
+454 silly addNameRange     '6.3.2',
+454 silly addNameRange     '7.0.0',
+454 silly addNameRange     '8.0.0',
+454 silly addNameRange     '8.1.0',
+454 silly addNameRange     '8.2.0',
+454 silly addNameRange     '9.0.0',
+454 silly addNameRange     '9.1.0',
+454 silly addNameRange     '9.1.1',
+454 silly addNameRange     '10.0.0',
+454 silly addNameRange     '10.0.1',
+454 silly addNameRange     '10.1.0',
+454 silly addNameRange     '11.0.0',
+454 silly addNameRange     '11.0.1',
+454 silly addNameRange     '11.0.2',
+454 silly addNameRange     '11.0.3' ] ]
+455 silly addNamed jstransform@10.1.0
+456 verbose addNamed "10.1.0" is a plain semver version for jstransform
+457 silly cache afterAdd jstransform@10.1.0
+458 verbose afterAdd /Users/venkata.vepa/.npm/jstransform/10.1.0/package/package.json not in flight; writing
+459 verbose afterAdd /Users/venkata.vepa/.npm/jstransform/10.1.0/package/package.json written
+460 silly install resolved [ { name: 'through',
+460 silly install resolved     version: '2.3.8',
+460 silly install resolved     description: 'simplified stream construction',
+460 silly install resolved     main: 'index.js',
+460 silly install resolved     scripts: { test: 'set -e; for t in test/*.js; do node $t; done' },
+460 silly install resolved     devDependencies: { 'stream-spec': '~0.3.5', tape: '~2.3.2', from: '~0.1.3' },
+460 silly install resolved     keywords: [ 'stream', 'streams', 'user-streams', 'pipe' ],
+460 silly install resolved     author:
+460 silly install resolved      { name: 'Dominic Tarr',
+460 silly install resolved        email: 'dominic.tarr@gmail.com',
+460 silly install resolved        url: 'dominictarr.com' },
+460 silly install resolved     license: 'MIT',
+460 silly install resolved     repository:
+460 silly install resolved      { type: 'git',
+460 silly install resolved        url: 'git+https://github.com/dominictarr/through.git' },
+460 silly install resolved     homepage: 'https://github.com/dominictarr/through',
+460 silly install resolved     testling: { browsers: [Object], files: 'test/*.js' },
+460 silly install resolved     gitHead: '2c5a6f9a0cc54da759b6e10964f2081c358e49dc',
+460 silly install resolved     bugs: { url: 'https://github.com/dominictarr/through/issues' },
+460 silly install resolved     _id: 'through@2.3.8',
+460 silly install resolved     _shasum: '0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5',
+460 silly install resolved     _from: 'through@>=2.3.4 <2.4.0',
+460 silly install resolved     _npmVersion: '2.12.0',
+460 silly install resolved     _nodeVersion: '2.3.1',
+460 silly install resolved     _npmUser: { name: 'dominictarr', email: 'dominic.tarr@gmail.com' },
+460 silly install resolved     maintainers: [ [Object] ],
+460 silly install resolved     dist:
+460 silly install resolved      { shasum: '0dd4c9ffaabc357960b1b724115d7e0e86a2e1f5',
+460 silly install resolved        tarball: 'http://registry.npmjs.org/through/-/through-2.3.8.tgz' },
+460 silly install resolved     directories: {},
+460 silly install resolved     _resolved: 'https://registry.npmjs.org/through/-/through-2.3.8.tgz',
+460 silly install resolved     readme: 'ERROR: No README data found!' },
+460 silly install resolved   { name: 'jstransform',
+460 silly install resolved     version: '10.1.0',
+460 silly install resolved     description: 'A simple AST visitor-based JS transformer',
+460 silly install resolved     contributors: [ [Object] ],
+460 silly install resolved     main: 'src/jstransform',
+460 silly install resolved     repository:
+460 silly install resolved      { type: 'git',
+460 silly install resolved        url: 'git+ssh://git@github.com/facebook/jstransform.git' },
+460 silly install resolved     keywords: [ 'transformer', 'compiler', 'syntax', 'visitor' ],
+460 silly install resolved     dependencies:
+460 silly install resolved      { base62: '0.1.1',
+460 silly install resolved        'esprima-fb': '13001.1001.0-dev-harmony-fb',
+460 silly install resolved        'source-map': '0.1.31' },
+460 silly install resolved     licenses: [ [Object] ],
+460 silly install resolved     engines: { node: '>=0.8.8' },
+460 silly install resolved     devDependencies: { 'jest-cli': '^0.2', jshint: '^2.5.10' },
+460 silly install resolved     jest:
+460 silly install resolved      { scriptPreprocessor: '<rootDir>/jestPreprocessor.js',
+460 silly install resolved        setupEnvScriptFile: '<rootDir>/jestEnvironment.js',
+460 silly install resolved        testPathIgnorePatterns: [Object] },
+460 silly install resolved     scripts:
+460 silly install resolved      { prepublish: 'jest && jshint --config=.jshintrc --exclude=node_modules .',
+460 silly install resolved        test: 'jest && jshint --config=.jshintrc --exclude=node_modules .' },
+460 silly install resolved     gitHead: '90201cf6e40549bacf0efe8915600658a9564471',
+460 silly install resolved     bugs: { url: 'https://github.com/facebook/jstransform/issues' },
+460 silly install resolved     homepage: 'https://github.com/facebook/jstransform',
+460 silly install resolved     _id: 'jstransform@10.1.0',
+460 silly install resolved     _shasum: 'b4c49bf63f162c108b0348399a8737c713b0a83a',
+460 silly install resolved     _from: 'jstransform@>=10.0.1 <11.0.0',
+460 silly install resolved     _npmVersion: '1.4.16',
+460 silly install resolved     _npmUser: { name: 'gabelevi', email: 'gabelevi@gmail.com' },
+460 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+460 silly install resolved     dist:
+460 silly install resolved      { shasum: 'b4c49bf63f162c108b0348399a8737c713b0a83a',
+460 silly install resolved        tarball: 'http://registry.npmjs.org/jstransform/-/jstransform-10.1.0.tgz' },
+460 silly install resolved     directories: {},
+460 silly install resolved     _resolved: 'https://registry.npmjs.org/jstransform/-/jstransform-10.1.0.tgz',
+460 silly install resolved     readme: 'ERROR: No README data found!' } ]
+461 info install through@2.3.8 into /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify
+462 info install jstransform@10.1.0 into /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify
+463 info installOne through@2.3.8
+464 verbose installOne of through to /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify not in flight; installing
+465 info installOne jstransform@10.1.0
+466 verbose installOne of jstransform to /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify not in flight; installing
+467 verbose lock using /Users/venkata.vepa/.npm/_locks/through-0a7b4a2d5251674c.lock for /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/through
+468 verbose lock using /Users/venkata.vepa/.npm/_locks/jstransform-01dcb68ea8d9f16b.lock for /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform
+469 silly install write writing through 2.3.8 to /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/through
+470 silly install write writing jstransform 10.1.0 to /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform
+471 verbose unbuild node_modules/react/node_modules/envify/node_modules/through
+472 verbose unbuild node_modules/react/node_modules/envify/node_modules/jstransform
+473 silly gentlyRm /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/through is being purged from base /Users/venkata.vepa/ReactLearn/thumbnail-list
+474 verbose gentlyRm don't care about contents; nuking /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/through
+475 verbose tar unpack /Users/venkata.vepa/.npm/through/2.3.8/package.tgz
+476 verbose tar unpacking to /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/through
+477 silly gentlyRm /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/through is being purged
+478 verbose gentlyRm don't care about contents; nuking /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/through
+479 silly gentlyRm /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform is being purged from base /Users/venkata.vepa/ReactLearn/thumbnail-list
+480 verbose gentlyRm don't care about contents; nuking /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform
+481 silly gunzTarPerm modes [ '755', '644' ]
+482 verbose tar unpack /Users/venkata.vepa/.npm/jstransform/10.1.0/package.tgz
+483 verbose tar unpacking to /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform
+484 silly gentlyRm /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform is being purged
+485 verbose gentlyRm don't care about contents; nuking /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform
+486 silly gunzTarPerm modes [ '755', '644' ]
+487 silly gunzTarPerm extractEntry package.json
+488 silly gunzTarPerm extractEntry package.json
+489 silly gunzTarPerm extractEntry index.js
+490 silly gunzTarPerm extractEntry .travis.yml
+491 silly gunzTarPerm extractEntry .npmignore
+492 silly gunzTarPerm extractEntry README.md
+493 silly gunzTarPerm extractEntry LICENSE.APACHE2
+494 silly gunzTarPerm extractEntry LICENSE.MIT
+495 silly gunzTarPerm extractEntry LICENSE
+496 silly gunzTarPerm extractEntry readme.markdown
+497 silly gunzTarPerm extractEntry test/async.js
+498 silly gunzTarPerm extractEntry jestEnvironment.js
+499 silly gunzTarPerm extractEntry jestPreprocessor.js
+500 silly gunzTarPerm extractEntry test/auto-destroy.js
+501 silly gunzTarPerm extractEntry test/buffering.js
+502 silly gunzTarPerm extractEntry .jshintrc
+503 silly gunzTarPerm extractEntry .travis.yml
+504 silly gunzTarPerm extractEntry test/end.js
+505 silly gunzTarPerm extractEntry polyfill/Object.es6.js
+506 silly gunzTarPerm extractEntry src/docblock.js
+507 silly gunzTarPerm extractEntry test/index.js
+508 silly gunzTarPerm extractEntry src/jstransform.js
+509 silly gunzTarPerm extractEntry src/utils.js
+510 silly gunzTarPerm extractEntry src/__tests__/jstransform-test.js
+511 silly gunzTarPerm extractEntry src/__tests__/jstransform-utils-test.js
+512 silly gunzTarPerm extractEntry visitors/type-syntax.js
+513 silly gunzTarPerm extractEntry visitors/es6-class-visitors.js
+514 silly gunzTarPerm extractEntry visitors/es6-destructuring-visitors.js
+515 silly gunzTarPerm extractEntry visitors/es6-object-concise-method-visitors.js
+516 silly gunzTarPerm extractEntry visitors/es6-object-short-notation-visitors.js
+517 silly gunzTarPerm extractEntry visitors/es6-call-spread-visitors.js
+518 silly gunzTarPerm extractEntry visitors/es6-template-visitors.js
+519 silly gunzTarPerm extractEntry visitors/es7-rest-property-helpers.js
+520 silly gunzTarPerm extractEntry visitors/es7-spread-property-visitors.js
+521 silly gunzTarPerm extractEntry visitors/reserved-words-helper.js
+522 silly gunzTarPerm extractEntry visitors/reserved-words-visitors.js
+523 silly gunzTarPerm extractEntry visitors/es6-arrow-function-visitors.js
+524 verbose write writing to /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/through/package.json
+525 info preinstall through@2.3.8
+526 silly gunzTarPerm extractEntry visitors/es6-rest-param-visitors.js
+527 silly gunzTarPerm extractEntry visitors/__tests__/es6-arrow-function-visitors-test.js
+528 verbose readDependencies loading dependencies from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/through/package.json
+529 verbose readDependencies loading dependencies from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/through/package.json
+530 silly install resolved []
+531 verbose about to build /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/through
+532 info build /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/through
+533 silly gunzTarPerm extractEntry visitors/__tests__/es6-object-short-notation-visitors-test.js
+534 silly gunzTarPerm extractEntry visitors/__tests__/es6-rest-param-visitors-test.js
+535 info linkStuff through@2.3.8
+536 silly linkStuff through@2.3.8 has /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules as its parent node_modules
+537 verbose linkBins through@2.3.8
+538 verbose linkMans through@2.3.8
+539 verbose rebuildBundles through@2.3.8
+540 silly gunzTarPerm extractEntry visitors/__tests__/es6-template-visitors-test.js
+541 info install through@2.3.8
+542 info postinstall through@2.3.8
+543 verbose unlock done using /Users/venkata.vepa/.npm/_locks/through-0a7b4a2d5251674c.lock for /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/through
+544 silly gunzTarPerm extractEntry visitors/__tests__/es7-rest-property-helpers-test.js
+545 silly gunzTarPerm extractEntry visitors/__tests__/es6-object-concise-method-visitors-test.js
+546 silly gunzTarPerm extractEntry visitors/__tests__/type-syntax-test.js
+547 silly gunzTarPerm extractEntry visitors/__tests__/reserved-words-test.js
+548 silly gunzTarPerm extractEntry visitors/__tests__/type-alias-syntax-test.js
+549 silly gunzTarPerm extractEntry visitors/__tests__/type-class-syntax-test.js
+550 silly gunzTarPerm extractEntry visitors/__tests__/type-function-syntax-test.js
+551 silly gunzTarPerm extractEntry visitors/__tests__/es6-es7-object-integration-test.js
+552 silly gunzTarPerm extractEntry visitors/__tests__/type-interface-syntax-test.js
+553 silly gunzTarPerm extractEntry visitors/__tests__/es6-destructuring-visitors-test.js
+554 silly gunzTarPerm extractEntry visitors/__tests__/type-object-method-syntax-test.js
+555 silly gunzTarPerm extractEntry visitors/__tests__/es6-class-visitors-test.js
+556 silly gunzTarPerm extractEntry visitors/__tests__/type-pattern-syntax-test.js
+557 silly gunzTarPerm extractEntry visitors/__tests__/es6-call-spread-visitors-test.js
+558 silly gunzTarPerm extractEntry visitors/__tests__/type-variable-declaration-syntax-test.js
+559 silly gunzTarPerm extractEntry visitors/__tests__/es7-spread-property-visitors-test.js
+560 silly gunzTarPerm extractEntry visitors/__tests__/gen/generate-type-syntax-test.js
+561 silly gunzTarPerm extractEntry visitors/__tests__/gen/type-syntax-test.rec.js
+562 verbose write writing to /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/package.json
+563 info preinstall jstransform@10.1.0
+564 verbose readDependencies loading dependencies from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/package.json
+565 silly prepareForInstallMany adding base62@0.1.1 from jstransform dependencies
+566 silly prepareForInstallMany adding esprima-fb@13001.1001.0-dev-harmony-fb from jstransform dependencies
+567 silly prepareForInstallMany adding source-map@0.1.31 from jstransform dependencies
+568 verbose readDependencies loading dependencies from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/package.json
+569 silly cache add args [ 'esprima-fb@13001.1001.0-dev-harmony-fb', null ]
+570 verbose cache add spec esprima-fb@13001.1001.0-dev-harmony-fb
+571 silly cache add parsed spec Result {
+571 silly cache add   raw: 'esprima-fb@13001.1001.0-dev-harmony-fb',
+571 silly cache add   scope: null,
+571 silly cache add   name: 'esprima-fb',
+571 silly cache add   rawSpec: '13001.1001.0-dev-harmony-fb',
+571 silly cache add   spec: '13001.1001.0-dev-harmony-fb',
+571 silly cache add   type: 'version' }
+572 silly addNamed esprima-fb@13001.1001.0-dev-harmony-fb
+573 verbose addNamed "13001.1001.0-dev-harmony-fb" is a plain semver version for esprima-fb
+574 silly mapToRegistry name esprima-fb
+575 silly mapToRegistry using default registry
+576 silly mapToRegistry registry https://registry.npmjs.org/
+577 silly mapToRegistry uri https://registry.npmjs.org/esprima-fb
+578 verbose addNameVersion registry:https://registry.npmjs.org/esprima-fb not in flight; fetching
+579 silly cache add args [ 'source-map@0.1.31', null ]
+580 verbose cache add spec source-map@0.1.31
+581 silly cache add parsed spec Result {
+581 silly cache add   raw: 'source-map@0.1.31',
+581 silly cache add   scope: null,
+581 silly cache add   name: 'source-map',
+581 silly cache add   rawSpec: '0.1.31',
+581 silly cache add   spec: '0.1.31',
+581 silly cache add   type: 'version' }
+582 silly addNamed source-map@0.1.31
+583 verbose addNamed "0.1.31" is a plain semver version for source-map
+584 silly mapToRegistry name source-map
+585 silly mapToRegistry using default registry
+586 silly mapToRegistry registry https://registry.npmjs.org/
+587 silly mapToRegistry uri https://registry.npmjs.org/source-map
+588 verbose addNameVersion registry:https://registry.npmjs.org/source-map not in flight; fetching
+589 silly cache add args [ 'base62@0.1.1', null ]
+590 verbose cache add spec base62@0.1.1
+591 silly cache add parsed spec Result {
+591 silly cache add   raw: 'base62@0.1.1',
+591 silly cache add   scope: null,
+591 silly cache add   name: 'base62',
+591 silly cache add   rawSpec: '0.1.1',
+591 silly cache add   spec: '0.1.1',
+591 silly cache add   type: 'version' }
+592 silly addNamed base62@0.1.1
+593 verbose addNamed "0.1.1" is a plain semver version for base62
+594 silly mapToRegistry name base62
+595 silly mapToRegistry using default registry
+596 silly mapToRegistry registry https://registry.npmjs.org/
+597 silly mapToRegistry uri https://registry.npmjs.org/base62
+598 verbose addNameVersion registry:https://registry.npmjs.org/base62 not in flight; fetching
+599 verbose request uri https://registry.npmjs.org/esprima-fb
+600 verbose request no auth needed
+601 info attempt registry request try #1 at 9:31:58 PM
+602 verbose etag "4AEUSG43ZILFZ10L3XXRKITLR"
+603 http request GET https://registry.npmjs.org/esprima-fb
+604 verbose request uri https://registry.npmjs.org/base62
+605 verbose request no auth needed
+606 info attempt registry request try #1 at 9:31:58 PM
+607 verbose etag "XZYR7YGCUVXMR7CXYA3DWG62"
+608 http request GET https://registry.npmjs.org/base62
+609 verbose request uri https://registry.npmjs.org/source-map
+610 verbose request no auth needed
+611 info attempt registry request try #1 at 9:31:58 PM
+612 verbose etag "X4KKFAC6YYZSKCIGZLNOI8Y1"
+613 http request GET https://registry.npmjs.org/source-map
+614 http 304 https://registry.npmjs.org/esprima-fb
+615 verbose headers { date: 'Fri, 08 Jan 2016 05:31:51 GMT',
+615 verbose headers   via: '1.1 varnish',
+615 verbose headers   'cache-control': 'max-age=300',
+615 verbose headers   etag: '"4AEUSG43ZILFZ10L3XXRKITLR"',
+615 verbose headers   age: '107',
+615 verbose headers   connection: 'keep-alive',
+615 verbose headers   'x-served-by': 'cache-lax1422-LAX',
+615 verbose headers   'x-cache': 'HIT',
+615 verbose headers   'x-cache-hits': '3',
+615 verbose headers   'x-timer': 'S1452231111.203891,VS0,VE0',
+615 verbose headers   vary: 'Accept' }
+616 silly get cb [ 304,
+616 silly get   { date: 'Fri, 08 Jan 2016 05:31:51 GMT',
+616 silly get     via: '1.1 varnish',
+616 silly get     'cache-control': 'max-age=300',
+616 silly get     etag: '"4AEUSG43ZILFZ10L3XXRKITLR"',
+616 silly get     age: '107',
+616 silly get     connection: 'keep-alive',
+616 silly get     'x-served-by': 'cache-lax1422-LAX',
+616 silly get     'x-cache': 'HIT',
+616 silly get     'x-cache-hits': '3',
+616 silly get     'x-timer': 'S1452231111.203891,VS0,VE0',
+616 silly get     vary: 'Accept' } ]
+617 verbose etag https://registry.npmjs.org/esprima-fb from cache
+618 verbose get saving esprima-fb to /Users/venkata.vepa/.npm/registry.npmjs.org/esprima-fb/.cache.json
+619 http 304 https://registry.npmjs.org/base62
+620 verbose headers { date: 'Fri, 08 Jan 2016 05:31:51 GMT',
+620 verbose headers   via: '1.1 varnish',
+620 verbose headers   'cache-control': 'max-age=300',
+620 verbose headers   etag: '"XZYR7YGCUVXMR7CXYA3DWG62"',
+620 verbose headers   age: '107',
+620 verbose headers   connection: 'keep-alive',
+620 verbose headers   'x-served-by': 'cache-lax1423-LAX',
+620 verbose headers   'x-cache': 'HIT',
+620 verbose headers   'x-cache-hits': '2',
+620 verbose headers   'x-timer': 'S1452231111.210800,VS0,VE0',
+620 verbose headers   vary: 'Accept' }
+621 silly get cb [ 304,
+621 silly get   { date: 'Fri, 08 Jan 2016 05:31:51 GMT',
+621 silly get     via: '1.1 varnish',
+621 silly get     'cache-control': 'max-age=300',
+621 silly get     etag: '"XZYR7YGCUVXMR7CXYA3DWG62"',
+621 silly get     age: '107',
+621 silly get     connection: 'keep-alive',
+621 silly get     'x-served-by': 'cache-lax1423-LAX',
+621 silly get     'x-cache': 'HIT',
+621 silly get     'x-cache-hits': '2',
+621 silly get     'x-timer': 'S1452231111.210800,VS0,VE0',
+621 silly get     vary: 'Accept' } ]
+622 verbose etag https://registry.npmjs.org/base62 from cache
+623 verbose get saving base62 to /Users/venkata.vepa/.npm/registry.npmjs.org/base62/.cache.json
+624 silly cache afterAdd base62@0.1.1
+625 verbose afterAdd /Users/venkata.vepa/.npm/base62/0.1.1/package/package.json not in flight; writing
+626 silly cache afterAdd esprima-fb@13001.1001.0-dev-harmony-fb
+627 verbose afterAdd /Users/venkata.vepa/.npm/esprima-fb/13001.1001.0-dev-harmony-fb/package/package.json not in flight; writing
+628 verbose afterAdd /Users/venkata.vepa/.npm/base62/0.1.1/package/package.json written
+629 verbose afterAdd /Users/venkata.vepa/.npm/esprima-fb/13001.1001.0-dev-harmony-fb/package/package.json written
+630 http 304 https://registry.npmjs.org/source-map
+631 verbose headers { date: 'Fri, 08 Jan 2016 05:31:51 GMT',
+631 verbose headers   via: '1.1 varnish',
+631 verbose headers   'cache-control': 'max-age=300',
+631 verbose headers   etag: '"X4KKFAC6YYZSKCIGZLNOI8Y1"',
+631 verbose headers   age: '85',
+631 verbose headers   connection: 'keep-alive',
+631 verbose headers   'x-served-by': 'cache-lax1434-LAX',
+631 verbose headers   'x-cache': 'HIT',
+631 verbose headers   'x-cache-hits': '10',
+631 verbose headers   'x-timer': 'S1452231111.243463,VS0,VE0',
+631 verbose headers   vary: 'Accept' }
+632 silly get cb [ 304,
+632 silly get   { date: 'Fri, 08 Jan 2016 05:31:51 GMT',
+632 silly get     via: '1.1 varnish',
+632 silly get     'cache-control': 'max-age=300',
+632 silly get     etag: '"X4KKFAC6YYZSKCIGZLNOI8Y1"',
+632 silly get     age: '85',
+632 silly get     connection: 'keep-alive',
+632 silly get     'x-served-by': 'cache-lax1434-LAX',
+632 silly get     'x-cache': 'HIT',
+632 silly get     'x-cache-hits': '10',
+632 silly get     'x-timer': 'S1452231111.243463,VS0,VE0',
+632 silly get     vary: 'Accept' } ]
+633 verbose etag https://registry.npmjs.org/source-map from cache
+634 verbose get saving source-map to /Users/venkata.vepa/.npm/registry.npmjs.org/source-map/.cache.json
+635 silly cache afterAdd source-map@0.1.31
+636 verbose afterAdd /Users/venkata.vepa/.npm/source-map/0.1.31/package/package.json not in flight; writing
+637 verbose afterAdd /Users/venkata.vepa/.npm/source-map/0.1.31/package/package.json written
+638 silly install resolved [ { author:
+638 silly install resolved      { name: 'Andrew Nesbitt',
+638 silly install resolved        email: 'andrewnez@gmail.com',
+638 silly install resolved        url: 'http://andrew-nesbitt.com/' },
+638 silly install resolved     name: 'base62',
+638 silly install resolved     description: 'Javascript Base62 encode/decoder',
+638 silly install resolved     keywords: [ 'base-62' ],
+638 silly install resolved     version: '0.1.1',
+638 silly install resolved     repository: { type: 'git', url: 'git://github.com/andrew/base62.js.git' },
+638 silly install resolved     main: 'base62.js',
+638 silly install resolved     engines: { node: '*' },
+638 silly install resolved     scripts: { test: 'mocha test' },
+638 silly install resolved     devDependencies: { mocha: '1.7.x' },
+638 silly install resolved     _id: 'base62@0.1.1',
+638 silly install resolved     dist:
+638 silly install resolved      { shasum: '7b4174c2f94449753b11c2651c083da841a7b084',
+638 silly install resolved        tarball: 'http://registry.npmjs.org/base62/-/base62-0.1.1.tgz' },
+638 silly install resolved     _npmVersion: '1.1.65',
+638 silly install resolved     _npmUser: { name: 'andrewnez', email: 'andrewnez@gmail.com' },
+638 silly install resolved     maintainers: [ [Object] ],
+638 silly install resolved     directories: {},
+638 silly install resolved     _shasum: '7b4174c2f94449753b11c2651c083da841a7b084',
+638 silly install resolved     _resolved: 'https://registry.npmjs.org/base62/-/base62-0.1.1.tgz',
+638 silly install resolved     _from: 'base62@0.1.1',
+638 silly install resolved     bugs: { url: 'https://github.com/andrew/base62.js/issues' },
+638 silly install resolved     readme: 'ERROR: No README data found!',
+638 silly install resolved     homepage: 'https://github.com/andrew/base62.js#readme' },
+638 silly install resolved   { name: 'esprima-fb',
+638 silly install resolved     description: 'Facebook-specific fork of the esprima project',
+638 silly install resolved     homepage: 'https://github.com/facebook/esprima/tree/fb-harmony',
+638 silly install resolved     main: 'esprima.js',
+638 silly install resolved     bin:
+638 silly install resolved      { esparse: './bin/esparse.js',
+638 silly install resolved        esvalidate: './bin/esvalidate.js' },
+638 silly install resolved     version: '13001.1001.0-dev-harmony-fb',
+638 silly install resolved     files:
+638 silly install resolved      [ 'bin',
+638 silly install resolved        'test/run.js',
+638 silly install resolved        'test/runner.js',
+638 silly install resolved        'test/test.js',
+638 silly install resolved        'test/compat.js',
+638 silly install resolved        'test/reflect.js',
+638 silly install resolved        'esprima.js' ],
+638 silly install resolved     engines: { node: '>=0.4.0' },
+638 silly install resolved     author: { name: 'Ariya Hidayat', email: 'ariya.hidayat@gmail.com' },
+638 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+638 silly install resolved     repository:
+638 silly install resolved      { type: 'git',
+638 silly install resolved        url: 'git+ssh://git@github.com/facebook/esprima.git' },
+638 silly install resolved     bugs: { url: 'http://issues.esprima.org' },
+638 silly install resolved     licenses: [ [Object] ],
+638 silly install resolved     devDependencies:
+638 silly install resolved      { eslint: '~0.12.0',
+638 silly install resolved        jscs: '~1.10.0',
+638 silly install resolved        istanbul: '~0.2.6',
+638 silly install resolved        'escomplex-js': '1.0.0',
+638 silly install resolved        'complexity-report': '~1.1.1',
+638 silly install resolved        regenerate: '~0.5.4',
+638 silly install resolved        'unicode-6.3.0': '~0.1.0',
+638 silly install resolved        'json-diff': '~0.3.1',
+638 silly install resolved        commander: '~2.5.0' },
+638 silly install resolved     scripts:
+638 silly install resolved      { 'generate-regex': 'node tools/generate-identifier-regex.js',
+638 silly install resolved        test: 'node test/run.js && npm run lint && npm run coverage',
+638 silly install resolved        lint: 'npm run check-version && npm run eslint && npm run jscs && npm run complexity',
+638 silly install resolved        'check-version': 'node tools/check-version.js',
+638 silly install resolved        jscs: 'jscs esprima.js test/*test.js',
+638 silly install resolved        eslint: 'node node_modules/eslint/bin/eslint.js esprima.js',
+638 silly install resolved        complexity: 'node tools/list-complexity.js && cr -s -l -w --maxcyc 18 esprima.js',
+638 silly install resolved        coverage: 'npm run analyze-coverage && npm run check-coverage',
+638 silly install resolved        'analyze-coverage': 'node node_modules/istanbul/lib/cli.js cover test/runner.js',
+638 silly install resolved        'check-coverage': 'node node_modules/istanbul/lib/cli.js check-coverage --statement 100 --branch 100 --function 100',
+638 silly install resolved        benchmark: 'node test/benchmarks.js',
+638 silly install resolved        'benchmark-quick': 'node test/benchmarks.js quick' },
+638 silly install resolved     gitHead: 'a3ae0c054867db61166dd72affc579710b36476d',
+638 silly install resolved     _id: 'esprima-fb@13001.1001.0-dev-harmony-fb',
+638 silly install resolved     _shasum: '633acdb40d9bd4db8a1c1d68c06a942959fad2b0',
+638 silly install resolved     _from: 'esprima-fb@13001.1001.0-dev-harmony-fb',
+638 silly install resolved     _npmVersion: '1.4.16',
+638 silly install resolved     _npmUser: { name: 'gabelevi', email: 'gabelevi@gmail.com' },
+638 silly install resolved     dist:
+638 silly install resolved      { shasum: '633acdb40d9bd4db8a1c1d68c06a942959fad2b0',
+638 silly install resolved        tarball: 'http://registry.npmjs.org/esprima-fb/-/esprima-fb-13001.1001.0-dev-harmony-fb.tgz' },
+638 silly install resolved     directories: {},
+638 silly install resolved     _resolved: 'https://registry.npmjs.org/esprima-fb/-/esprima-fb-13001.1001.0-dev-harmony-fb.tgz',
+638 silly install resolved     readme: 'ERROR: No README data found!' },
+638 silly install resolved   { name: 'source-map',
+638 silly install resolved     description: 'Generates and consumes source maps',
+638 silly install resolved     version: '0.1.31',
+638 silly install resolved     homepage: 'https://github.com/mozilla/source-map',
+638 silly install resolved     author: { name: 'Nick Fitzgerald', email: 'nfitzgerald@mozilla.com' },
+638 silly install resolved     contributors:
+638 silly install resolved      [ [Object],
+638 silly install resolved        [Object],
+638 silly install resolved        [Object],
+638 silly install resolved        [Object],
+638 silly install resolved        [Object],
+638 silly install resolved        [Object],
+638 silly install resolved        [Object],
+638 silly install resolved        [Object],
+638 silly install resolved        [Object],
+638 silly install resolved        [Object],
+638 silly install resolved        [Object],
+638 silly install resolved        [Object],
+638 silly install resolved        [Object],
+638 silly install resolved        [Object],
+638 silly install resolved        [Object],
+638 silly install resolved        [Object] ],
+638 silly install resolved     repository:
+638 silly install resolved      { type: 'git',
+638 silly install resolved        url: 'git+ssh://git@github.com/mozilla/source-map.git' },
+638 silly install resolved     directories: { lib: './lib' },
+638 silly install resolved     main: './lib/source-map.js',
+638 silly install resolved     engines: { node: '>=0.8.0' },
+638 silly install resolved     licenses: [ [Object] ],
+638 silly install resolved     dependencies: { amdefine: '>=0.0.4' },
+638 silly install resolved     devDependencies: { dryice: '>=0.4.8' },
+638 silly install resolved     scripts:
+638 silly install resolved      { test: 'node test/run-tests.js',
+638 silly install resolved        build: 'node Makefile.dryice.js' },
+638 silly install resolved     _id: 'source-map@0.1.31',
+638 silly install resolved     dist:
+638 silly install resolved      { shasum: '9f704d0d69d9e138a81badf6ebb4fde33d151c61',
+638 silly install resolved        tarball: 'http://registry.npmjs.org/source-map/-/source-map-0.1.31.tgz' },
+638 silly install resolved     _from: 'source-map@0.1.31',
+638 silly install resolved     _npmVersion: '1.2.18',
+638 silly install resolved     _npmUser: { name: 'nickfitzgerald', email: 'fitzgen@gmail.com' },
+638 silly install resolved     maintainers: [ [Object], [Object], [Object] ],
+638 silly install resolved     _shasum: '9f704d0d69d9e138a81badf6ebb4fde33d151c61',
+638 silly install resolved     _resolved: 'https://registry.npmjs.org/source-map/-/source-map-0.1.31.tgz',
+638 silly install resolved     bugs: { url: 'https://github.com/mozilla/source-map/issues' },
+638 silly install resolved     readme: 'ERROR: No README data found!' } ]
+639 info install base62@0.1.1 into /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform
+640 info install esprima-fb@13001.1001.0-dev-harmony-fb into /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform
+641 info install source-map@0.1.31 into /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform
+642 info installOne base62@0.1.1
+643 verbose installOne of base62 to /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform not in flight; installing
+644 info installOne esprima-fb@13001.1001.0-dev-harmony-fb
+645 verbose installOne of esprima-fb to /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform not in flight; installing
+646 info installOne source-map@0.1.31
+647 verbose installOne of source-map to /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform not in flight; installing
+648 verbose lock using /Users/venkata.vepa/.npm/_locks/base62-1b9f57805a01f60d.lock for /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/base62
+649 silly install write writing base62 0.1.1 to /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/base62
+650 verbose lock using /Users/venkata.vepa/.npm/_locks/esprima-fb-e4b45d12acb43299.lock for /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/esprima-fb
+651 verbose lock using /Users/venkata.vepa/.npm/_locks/source-map-e2a51cb43bab9144.lock for /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map
+652 silly install write writing esprima-fb 13001.1001.0-dev-harmony-fb to /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/esprima-fb
+653 silly install write writing source-map 0.1.31 to /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map
+654 verbose unbuild node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/base62
+655 silly gentlyRm /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/base62 is being purged from base /Users/venkata.vepa/ReactLearn/thumbnail-list
+656 verbose gentlyRm don't care about contents; nuking /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/base62
+657 verbose unbuild node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map
+658 verbose unbuild node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/esprima-fb
+659 verbose tar unpack /Users/venkata.vepa/.npm/base62/0.1.1/package.tgz
+660 verbose tar unpacking to /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/base62
+661 silly gentlyRm /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/base62 is being purged
+662 verbose gentlyRm don't care about contents; nuking /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/base62
+663 silly gunzTarPerm modes [ '755', '644' ]
+664 silly gentlyRm /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map is being purged from base /Users/venkata.vepa/ReactLearn/thumbnail-list
+665 verbose gentlyRm don't care about contents; nuking /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map
+666 silly gentlyRm /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/esprima-fb is being purged from base /Users/venkata.vepa/ReactLearn/thumbnail-list
+667 verbose gentlyRm don't care about contents; nuking /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/esprima-fb
+668 verbose tar unpack /Users/venkata.vepa/.npm/source-map/0.1.31/package.tgz
+669 verbose tar unpacking to /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map
+670 silly gentlyRm /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map is being purged
+671 verbose gentlyRm don't care about contents; nuking /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map
+672 verbose tar unpack /Users/venkata.vepa/.npm/esprima-fb/13001.1001.0-dev-harmony-fb/package.tgz
+673 verbose tar unpacking to /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/esprima-fb
+674 silly gentlyRm /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/esprima-fb is being purged
+675 verbose gentlyRm don't care about contents; nuking /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/esprima-fb
+676 silly gunzTarPerm modes [ '755', '644' ]
+677 silly gunzTarPerm modes [ '755', '644' ]
+678 silly gunzTarPerm extractEntry package.json
+679 silly gunzTarPerm extractEntry package.json
+680 silly gunzTarPerm extractEntry package.json
+681 silly gunzTarPerm extractEntry LICENSE
+682 silly gunzTarPerm extractEntry base62.js
+683 silly gunzTarPerm extractEntry .npmignore
+684 silly gunzTarPerm extractEntry README.md
+685 silly gunzTarPerm extractEntry README.md
+686 silly gunzTarPerm extractEntry esprima.js
+687 silly gunzTarPerm extractEntry .travis.yml
+688 silly gunzTarPerm extractEntry Readme.md
+689 silly gunzTarPerm extractEntry LICENSE
+690 silly gunzTarPerm extractEntry test/test.js
+691 silly gunzTarPerm extractEntry bin/esparse.js
+692 silly gunzTarPerm extractEntry Makefile.dryice.js
+693 silly gunzTarPerm extractEntry .travis.yml
+694 silly gunzTarPerm extractEntry bin/esvalidate.js
+695 silly gunzTarPerm extractEntry test/compat.js
+696 silly gunzTarPerm extractEntry test/reflect.js
+697 silly gunzTarPerm extractEntry test/run.js
+698 silly gunzTarPerm extractEntry test/runner.js
+699 silly gunzTarPerm extractEntry CHANGELOG.md
+700 silly gunzTarPerm extractEntry build/assert-shim.js
+701 silly gunzTarPerm extractEntry test/test.js
+702 silly gunzTarPerm extractEntry build/mini-require.js
+703 silly gunzTarPerm extractEntry build/suffix-browser.js
+704 silly gunzTarPerm extractEntry build/test-prefix.js
+705 silly gunzTarPerm extractEntry build/test-suffix.js
+706 silly gunzTarPerm extractEntry build/prefix-source-map.jsm
+707 silly gunzTarPerm extractEntry build/prefix-utils.jsm
+708 verbose write writing to /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/base62/package.json
+709 info preinstall base62@0.1.1
+710 silly gunzTarPerm extractEntry build/suffix-source-map.jsm
+711 silly gunzTarPerm extractEntry build/suffix-utils.jsm
+712 verbose readDependencies loading dependencies from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/base62/package.json
+713 verbose readDependencies loading dependencies from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/base62/package.json
+714 silly gunzTarPerm extractEntry lib/source-map.js
+715 silly gunzTarPerm extractEntry lib/source-map/array-set.js
+716 silly install resolved []
+717 verbose about to build /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/base62
+718 info build /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/base62
+719 info linkStuff base62@0.1.1
+720 silly linkStuff base62@0.1.1 has /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules as its parent node_modules
+721 silly gunzTarPerm extractEntry lib/source-map/base64-vlq.js
+722 silly gunzTarPerm extractEntry lib/source-map/base64.js
+723 verbose linkBins base62@0.1.1
+724 verbose linkMans base62@0.1.1
+725 verbose rebuildBundles base62@0.1.1
+726 info install base62@0.1.1
+727 info postinstall base62@0.1.1
+728 verbose unlock done using /Users/venkata.vepa/.npm/_locks/base62-1b9f57805a01f60d.lock for /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/base62
+729 silly gunzTarPerm extractEntry lib/source-map/binary-search.js
+730 silly gunzTarPerm extractEntry lib/source-map/source-map-consumer.js
+731 silly gunzTarPerm extractEntry lib/source-map/source-map-generator.js
+732 silly gunzTarPerm extractEntry lib/source-map/source-node.js
+733 silly gunzTarPerm extractEntry lib/source-map/util.js
+734 silly gunzTarPerm extractEntry test/run-tests.js
+735 silly gunzTarPerm extractEntry test/source-map/test-api.js
+736 silly gunzTarPerm extractEntry test/source-map/test-array-set.js
+737 silly gunzTarPerm extractEntry test/source-map/test-base64-vlq.js
+738 silly gunzTarPerm extractEntry test/source-map/test-base64.js
+739 silly gunzTarPerm extractEntry test/source-map/test-binary-search.js
+740 silly gunzTarPerm extractEntry test/source-map/test-dog-fooding.js
+741 silly gunzTarPerm extractEntry test/source-map/test-source-map-consumer.js
+742 silly gunzTarPerm extractEntry test/source-map/test-source-map-generator.js
+743 silly gunzTarPerm extractEntry test/source-map/test-source-node.js
+744 silly gunzTarPerm extractEntry test/source-map/util.js
+745 verbose write writing to /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/esprima-fb/package.json
+746 info preinstall esprima-fb@13001.1001.0-dev-harmony-fb
+747 verbose readDependencies loading dependencies from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/esprima-fb/package.json
+748 verbose readDependencies loading dependencies from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/esprima-fb/package.json
+749 silly install resolved []
+750 verbose about to build /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/esprima-fb
+751 info build /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/esprima-fb
+752 info linkStuff esprima-fb@13001.1001.0-dev-harmony-fb
+753 silly linkStuff esprima-fb@13001.1001.0-dev-harmony-fb has /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules as its parent node_modules
+754 verbose linkBins esprima-fb@13001.1001.0-dev-harmony-fb
+755 verbose link bins [ { esparse: './bin/esparse.js',
+755 verbose link bins     esvalidate: './bin/esvalidate.js' },
+755 verbose link bins   '/Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/.bin',
+755 verbose link bins   false ]
+756 verbose linkMans esprima-fb@13001.1001.0-dev-harmony-fb
+757 verbose rebuildBundles esprima-fb@13001.1001.0-dev-harmony-fb
+758 silly gentlyRm /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/.bin/esparse is being purged
+759 verbose gentlyRm don't care about contents; nuking /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/.bin/esparse
+760 silly gentlyRm /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/.bin/esvalidate is being purged
+761 verbose gentlyRm don't care about contents; nuking /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/.bin/esvalidate
+762 info install esprima-fb@13001.1001.0-dev-harmony-fb
+763 info postinstall esprima-fb@13001.1001.0-dev-harmony-fb
+764 verbose unlock done using /Users/venkata.vepa/.npm/_locks/esprima-fb-e4b45d12acb43299.lock for /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/esprima-fb
+765 verbose write writing to /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map/package.json
+766 info preinstall source-map@0.1.31
+767 verbose readDependencies loading dependencies from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map/package.json
+768 silly prepareForInstallMany adding amdefine@>=0.0.4 from source-map dependencies
+769 verbose readDependencies loading dependencies from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map/package.json
+770 silly cache add args [ 'amdefine@>=0.0.4', null ]
+771 verbose cache add spec amdefine@>=0.0.4
+772 silly cache add parsed spec Result {
+772 silly cache add   raw: 'amdefine@>=0.0.4',
+772 silly cache add   scope: null,
+772 silly cache add   name: 'amdefine',
+772 silly cache add   rawSpec: '>=0.0.4',
+772 silly cache add   spec: '>=0.0.4',
+772 silly cache add   type: 'range' }
+773 silly addNamed amdefine@>=0.0.4
+774 verbose addNamed ">=0.0.4" is a valid semver range for amdefine
+775 silly addNameRange { name: 'amdefine', range: '>=0.0.4', hasData: false }
+776 silly mapToRegistry name amdefine
+777 silly mapToRegistry using default registry
+778 silly mapToRegistry registry https://registry.npmjs.org/
+779 silly mapToRegistry uri https://registry.npmjs.org/amdefine
+780 verbose addNameRange registry:https://registry.npmjs.org/amdefine not in flight; fetching
+781 verbose request uri https://registry.npmjs.org/amdefine
+782 verbose request no auth needed
+783 info attempt registry request try #1 at 9:31:59 PM
+784 verbose etag "6U9GHH4I8CAX7G1R4EWYEO1Z9"
+785 http request GET https://registry.npmjs.org/amdefine
+786 http 304 https://registry.npmjs.org/amdefine
+787 verbose headers { date: 'Fri, 08 Jan 2016 05:31:51 GMT',
+787 verbose headers   via: '1.1 varnish',
+787 verbose headers   'cache-control': 'max-age=300',
+787 verbose headers   etag: '"6U9GHH4I8CAX7G1R4EWYEO1Z9"',
+787 verbose headers   age: '113',
+787 verbose headers   connection: 'keep-alive',
+787 verbose headers   'x-served-by': 'cache-lax1433-LAX',
+787 verbose headers   'x-cache': 'HIT',
+787 verbose headers   'x-cache-hits': '5',
+787 verbose headers   'x-timer': 'S1452231111.380271,VS0,VE0',
+787 verbose headers   vary: 'Accept' }
+788 silly get cb [ 304,
+788 silly get   { date: 'Fri, 08 Jan 2016 05:31:51 GMT',
+788 silly get     via: '1.1 varnish',
+788 silly get     'cache-control': 'max-age=300',
+788 silly get     etag: '"6U9GHH4I8CAX7G1R4EWYEO1Z9"',
+788 silly get     age: '113',
+788 silly get     connection: 'keep-alive',
+788 silly get     'x-served-by': 'cache-lax1433-LAX',
+788 silly get     'x-cache': 'HIT',
+788 silly get     'x-cache-hits': '5',
+788 silly get     'x-timer': 'S1452231111.380271,VS0,VE0',
+788 silly get     vary: 'Accept' } ]
+789 verbose etag https://registry.npmjs.org/amdefine from cache
+790 verbose get saving amdefine to /Users/venkata.vepa/.npm/registry.npmjs.org/amdefine/.cache.json
+791 silly addNameRange number 2 { name: 'amdefine', range: '>=0.0.4', hasData: true }
+792 silly addNameRange versions [ 'amdefine',
+792 silly addNameRange   [ '0.0.1',
+792 silly addNameRange     '0.0.2',
+792 silly addNameRange     '0.0.3',
+792 silly addNameRange     '0.0.4',
+792 silly addNameRange     '0.0.5',
+792 silly addNameRange     '0.0.6',
+792 silly addNameRange     '0.0.7',
+792 silly addNameRange     '0.0.8',
+792 silly addNameRange     '0.1.0',
+792 silly addNameRange     '0.1.1',
+792 silly addNameRange     '1.0.0' ] ]
+793 silly addNamed amdefine@1.0.0
+794 verbose addNamed "1.0.0" is a plain semver version for amdefine
+795 silly cache afterAdd amdefine@1.0.0
+796 verbose afterAdd /Users/venkata.vepa/.npm/amdefine/1.0.0/package/package.json not in flight; writing
+797 verbose afterAdd /Users/venkata.vepa/.npm/amdefine/1.0.0/package/package.json written
+798 silly install resolved [ { name: 'amdefine',
+798 silly install resolved     description: 'Provide AMD\'s define() API for declaring modules in the AMD format',
+798 silly install resolved     version: '1.0.0',
+798 silly install resolved     homepage: 'http://github.com/jrburke/amdefine',
+798 silly install resolved     author:
+798 silly install resolved      { name: 'James Burke',
+798 silly install resolved        email: 'jrburke@gmail.com',
+798 silly install resolved        url: 'http://github.com/jrburke' },
+798 silly install resolved     license: 'BSD-3-Clause AND MIT',
+798 silly install resolved     repository:
+798 silly install resolved      { type: 'git',
+798 silly install resolved        url: 'git+https://github.com/jrburke/amdefine.git' },
+798 silly install resolved     main: './amdefine.js',
+798 silly install resolved     engines: { node: '>=0.4.2' },
+798 silly install resolved     gitHead: '578bc4a3f7dede33f3f3e10edde0c1607005d761',
+798 silly install resolved     bugs: { url: 'https://github.com/jrburke/amdefine/issues' },
+798 silly install resolved     _id: 'amdefine@1.0.0',
+798 silly install resolved     scripts: {},
+798 silly install resolved     _shasum: 'fd17474700cb5cc9c2b709f0be9d23ce3c198c33',
+798 silly install resolved     _from: 'amdefine@>=0.0.4',
+798 silly install resolved     _npmVersion: '2.12.1',
+798 silly install resolved     _nodeVersion: '0.10.36',
+798 silly install resolved     _npmUser: { name: 'jrburke', email: 'jrburke@gmail.com' },
+798 silly install resolved     maintainers: [ [Object] ],
+798 silly install resolved     dist:
+798 silly install resolved      { shasum: 'fd17474700cb5cc9c2b709f0be9d23ce3c198c33',
+798 silly install resolved        tarball: 'http://registry.npmjs.org/amdefine/-/amdefine-1.0.0.tgz' },
+798 silly install resolved     directories: {},
+798 silly install resolved     _resolved: 'https://registry.npmjs.org/amdefine/-/amdefine-1.0.0.tgz',
+798 silly install resolved     readme: 'ERROR: No README data found!' } ]
+799 info install amdefine@1.0.0 into /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map
+800 info installOne amdefine@1.0.0
+801 verbose installOne of amdefine to /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map not in flight; installing
+802 verbose lock using /Users/venkata.vepa/.npm/_locks/amdefine-0e06e14d350685a7.lock for /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map/node_modules/amdefine
+803 silly install write writing amdefine 1.0.0 to /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map/node_modules/amdefine
+804 verbose unbuild node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map/node_modules/amdefine
+805 silly gentlyRm /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map/node_modules/amdefine is being purged from base /Users/venkata.vepa/ReactLearn/thumbnail-list
+806 verbose gentlyRm don't care about contents; nuking /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map/node_modules/amdefine
+807 verbose tar unpack /Users/venkata.vepa/.npm/amdefine/1.0.0/package.tgz
+808 verbose tar unpacking to /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map/node_modules/amdefine
+809 silly gentlyRm /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map/node_modules/amdefine is being purged
+810 verbose gentlyRm don't care about contents; nuking /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map/node_modules/amdefine
+811 silly gunzTarPerm modes [ '755', '644' ]
+812 silly gunzTarPerm extractEntry package.json
+813 silly gunzTarPerm extractEntry README.md
+814 silly gunzTarPerm extractEntry LICENSE
+815 silly gunzTarPerm extractEntry amdefine.js
+816 silly gunzTarPerm extractEntry intercept.js
+817 verbose write writing to /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map/node_modules/amdefine/package.json
+818 info preinstall amdefine@1.0.0
+819 verbose readDependencies loading dependencies from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map/node_modules/amdefine/package.json
+820 verbose readDependencies loading dependencies from /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map/node_modules/amdefine/package.json
+821 silly install resolved []
+822 verbose about to build /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map/node_modules/amdefine
+823 info build /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map/node_modules/amdefine
+824 info linkStuff amdefine@1.0.0
+825 silly linkStuff amdefine@1.0.0 has /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map/node_modules as its parent node_modules
+826 verbose linkBins amdefine@1.0.0
+827 verbose linkMans amdefine@1.0.0
+828 verbose rebuildBundles amdefine@1.0.0
+829 info install amdefine@1.0.0
+830 info postinstall amdefine@1.0.0
+831 verbose unlock done using /Users/venkata.vepa/.npm/_locks/amdefine-0e06e14d350685a7.lock for /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map/node_modules/amdefine
+832 verbose about to build /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map
+833 info build /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map
+834 info linkStuff source-map@0.1.31
+835 silly linkStuff source-map@0.1.31 has /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules as its parent node_modules
+836 verbose linkBins source-map@0.1.31
+837 verbose linkMans source-map@0.1.31
+838 verbose rebuildBundles source-map@0.1.31
+839 verbose rebuildBundles [ 'amdefine' ]
+840 info install source-map@0.1.31
+841 info postinstall source-map@0.1.31
+842 verbose unlock done using /Users/venkata.vepa/.npm/_locks/source-map-e2a51cb43bab9144.lock for /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform/node_modules/source-map
+843 verbose about to build /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform
+844 info build /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform
+845 info linkStuff jstransform@10.1.0
+846 silly linkStuff jstransform@10.1.0 has /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules as its parent node_modules
+847 verbose linkBins jstransform@10.1.0
+848 verbose linkMans jstransform@10.1.0
+849 verbose rebuildBundles jstransform@10.1.0
+850 verbose rebuildBundles [ '.bin', 'base62', 'esprima-fb', 'source-map' ]
+851 info install jstransform@10.1.0
+852 info postinstall jstransform@10.1.0
+853 verbose unlock done using /Users/venkata.vepa/.npm/_locks/jstransform-01dcb68ea8d9f16b.lock for /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify/node_modules/jstransform
+854 verbose about to build /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify
+855 info build /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify
+856 info linkStuff envify@3.4.0
+857 silly linkStuff envify@3.4.0 has /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules as its parent node_modules
+858 verbose linkBins envify@3.4.0
+859 verbose link bins [ { envify: 'bin/envify' },
+859 verbose link bins   '/Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/.bin',
+859 verbose link bins   false ]
+860 verbose linkMans envify@3.4.0
+861 verbose rebuildBundles envify@3.4.0
+862 verbose rebuildBundles [ 'jstransform', 'through' ]
+863 silly gentlyRm /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/.bin/envify is being purged
+864 verbose gentlyRm don't care about contents; nuking /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/.bin/envify
+865 info install envify@3.4.0
+866 info postinstall envify@3.4.0
+867 verbose unlock done using /Users/venkata.vepa/.npm/_locks/envify-fa894eead892c372.lock for /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react/node_modules/envify
+868 verbose about to build /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react
+869 info build /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react
+870 info linkStuff react@0.13.3
+871 silly linkStuff react@0.13.3 has /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules as its parent node_modules
+872 verbose linkBins react@0.13.3
+873 verbose linkMans react@0.13.3
+874 verbose rebuildBundles react@0.13.3
+875 verbose rebuildBundles [ '.bin', 'envify' ]
+876 info install react@0.13.3
+877 info postinstall react@0.13.3
+878 verbose unlock done using /Users/venkata.vepa/.npm/_locks/react-d071f03ab5ba3d05.lock for /Users/venkata.vepa/ReactLearn/thumbnail-list/node_modules/react
+879 verbose validateInstall loading /Users/venkata.vepa/ReactLearn/thumbnail-list/package.json for validation
+880 verbose stack Error: The package react@0.13.3 does not satisfy its siblings' peerDependencies requirements!
+880 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:125:32
+880 verbose stack     at /usr/local/lib/node_modules/npm/lib/install.js:268:7
+880 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:142:5
+880 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+880 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+880 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+880 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+880 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+880 verbose stack     at cb (/usr/local/lib/node_modules/npm/node_modules/slide/lib/async-map.js:47:24)
+880 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-installed/read-installed.js:263:14
+881 verbose cwd /Users/venkata.vepa/ReactLearn/thumbnail-list
+882 error Darwin 14.5.0
+883 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "--save" "react" "react-dom"
+884 error node v4.2.4
+885 error npm  v2.14.12
+886 error code EPEERINVALID
+887 error peerinvalid The package react@0.13.3 does not satisfy its siblings' peerDependencies requirements!
+887 error peerinvalid Peer react-dom@0.14.6 wants react@^0.14.6
+888 verbose exit [ 1, true ]
